@@ -12,22 +12,32 @@ logger = get_logger("preprocessing")
 
 
 def load_all_raw_files() -> pd.DataFrame:
-    """Load and concatenate all CICIDS CSV files in order."""
+    """Load and concatenate all CSV files using chunking (memory-safe)."""
     dfs = []
+
     for filename in RAW_FILES:
         filepath = os.path.join(RAW_DATA_PATH, filename)
+
         if not os.path.exists(filepath):
             logger.warning(f"File not found, skipping: {filename}")
             continue
-        logger.info(f"Loading: {filename}")
-        df = pd.read_csv(filepath, low_memory=False)
-        df["source_file"] = filename
-        dfs.append(df)
+
+        logger.info(f"Loading (chunked): {filename}")
+
+        chunk_list = []
+
+        for chunk in pd.read_csv(filepath, chunksize=20000, low_memory=False):
+            chunk["source_file"] = filename
+            chunk_list.append(chunk)
+
+        df_file = pd.concat(chunk_list, ignore_index=True)
+        dfs.append(df_file)
 
     combined = pd.concat(dfs, ignore_index=True)
-    logger.info(f"Total records loaded: {len(combined)}")
-    return combined
 
+    logger.info(f"Total records loaded: {len(combined)}")
+
+    return combined
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     """Handle infinities, missing values, and column issues."""
@@ -40,10 +50,13 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df.replace([np.inf, -np.inf], np.nan, inplace=True)
     df.dropna(inplace=True)
 
-    # Remove constant columns
-    df = df.loc[:, df.nunique() > 1]
+    # Remove constant columns EXCEPT source_file
+    constant_cols = [col for col in df.columns if df[col].nunique() <= 1 and col != "source_file"]
+    df.drop(columns=constant_cols, inplace=True)
 
     logger.info(f"Removed {initial - len(df)} rows with NaN/Inf values.")
+    logger.info(f"Constant columns removed: {len(constant_cols)}")
+
     return df
 
 
@@ -74,7 +87,7 @@ def scale_features(X_train, X_test):
         os.makedirs(SCALERS_PATH, exist_ok=True)
         scaler_path = os.path.join(SCALERS_PATH, "scaler_v1.pkl")
         joblib.dump(scaler, scaler_path)
-        logger.info(f"Scaler saved → {scaler_path}")
+        logger.info(f"Scaler saved -> {scaler_path}")
 
     return X_train_scaled, X_test_scaled, scaler
 
@@ -83,7 +96,7 @@ def save_processed(df: pd.DataFrame):
     os.makedirs(PROCESSED_DATA_PATH, exist_ok=True)
     path = os.path.join(PROCESSED_DATA_PATH, PROCESSED_FILENAME)
     df.to_csv(path, index=False)
-    logger.info(f"Processed dataset saved → {path}")
+    logger.info(f"Processed dataset saved -> {path}")
 
 
 def run_preprocessing() -> pd.DataFrame:
@@ -98,9 +111,20 @@ def run_preprocessing() -> pd.DataFrame:
     df = drop_unnecessary_columns(df)
     df = encode_labels(df)
 
-    #  Feature engineering step
+    # Ensure source_file exists
+    if "source_file" not in df.columns:
+        raise ValueError("source_file column missing after loading")
+
+    # Save before feature engineering
+    source_col = df["source_file"].copy()
+
+    # Apply feature engineering ONCE
     df = apply_feature_engineering(df)
 
+    # Restore source_file
+    df["source_file"] = source_col
+
+    # Save processed data
     if SAVE_PROCESSED_DATA:
         save_processed(df)
 

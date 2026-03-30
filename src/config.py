@@ -16,13 +16,13 @@ LOGS_PATH       = os.path.join(BASE_DIR, "logs")
 # ─── Dataset ──────────────────────────────────────────────
 # All CICIDS CSV files (in the order you want them processed)
 RAW_FILES = [
-    #"Monday-WorkingHours.pcap_ISCX.csv",
-    #"Tuesday-WorkingHours.pcap_ISCX.csv",
-    #"Wednesday-workingHours.pcap_ISCX.csv",
-    #"Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
-    #"Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
-    #"Friday-WorkingHours-Morning.pcap_ISCX.csv",
-    #"Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "Monday-WorkingHours.pcap_ISCX.csv",
+    "Tuesday-WorkingHours.pcap_ISCX.csv",
+    "Wednesday-workingHours.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
     "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
 ]
 
@@ -30,7 +30,7 @@ PROCESSED_DATA_VERSION = "v1"
 PROCESSED_FILENAME = f"processed_data_{PROCESSED_DATA_VERSION}.csv"
 
 # ─── Columns ──────────────────────────────────────────────
-TARGET_COLUMN = " Label"   # note the leading space — CICIDS has it
+TARGET_COLUMN = "Label"  
 COLUMNS_TO_DROP = ["Flow ID", " Source IP", " Destination IP",
                    " Timestamp", "Fwd Header Length.1"]
 
