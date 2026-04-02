@@ -23,7 +23,7 @@ def get_logger(name: str) -> logging.Logger:
     if not logger.handlers:
         fmt = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
         
-        fh = logging.FileHandler(log_file)
+        fh = logging.FileHandler(log_file, encoding="utf-8")
         fh.setFormatter(fmt)
         
         ch = logging.StreamHandler()
