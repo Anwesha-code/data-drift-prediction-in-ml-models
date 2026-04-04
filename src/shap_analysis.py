@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 from config import (
     PROCESSED_DATA_PATH, PROCESSED_FILENAME,
     TARGET_COLUMN, MODELS_PATH, REPORTS_PATH,
-    RANDOM_STATE, SHAP_SAMPLE_SIZE, SHAP_TOP_N_FEATURES,
+    RANDOM_STATE, SHAP_SAMPLE_SIZE, SHAP_TOP_N_FEATURES, DEBUG,
 )
 from models import get_shap_explainer_type
 from utils import get_logger
@@ -48,7 +48,16 @@ def load_processed_data() -> pd.DataFrame:
     if not os.path.exists(path):
         raise FileNotFoundError(f"Processed data not found: {path}")
     logger.info(f"Loading: {path}")
-    return pd.read_csv(path)
+    
+    if DEBUG:
+        logger.info("DEBUG mode: Chunk-loading to prevent memory crash...")
+        chunk_list = []
+        for chunk in pd.read_csv(path, chunksize=50_000, low_memory=False):
+            # Keep 10% of each chunk to maintain distribution without crashing RAM
+            chunk_list.append(chunk.sample(frac=0.10, random_state=RANDOM_STATE))
+        return pd.concat(chunk_list, ignore_index=True)
+    else:
+        return pd.read_csv(path, low_memory=False)
 
 
 def get_batches(df: pd.DataFrame):
@@ -105,20 +114,25 @@ def run_shap_for_model(model_type, ref_batch, drifted_batch, ref_name, drifted_n
             explainer    = shap.TreeExplainer(model)
             sv_ref       = explainer.shap_values(X_ref)
             sv_drifted   = explainer.shap_values(X_drifted)
-            if isinstance(sv_ref, list):         # binary -> take class 1
-                sv_ref     = sv_ref[1]
-                sv_drifted = sv_drifted[1]
-
+            
         elif exp_type == "linear":
             explainer    = shap.LinearExplainer(model, X_ref[:100])
             sv_ref       = explainer.shap_values(X_ref)
             sv_drifted   = explainer.shap_values(X_drifted)
-            if isinstance(sv_ref, list):
-                sv_ref     = sv_ref[1]
-                sv_drifted = sv_drifted[1]
+            
         else:
             logger.warning(f"No SHAP explainer for {model_type}")
             return
+
+        # ── FIX: Safely extract Class 1 SHAP values for any SHAP version ──
+        if isinstance(sv_ref, list):
+            # Older SHAP versions return a list
+            sv_ref     = sv_ref[1]
+            sv_drifted = sv_drifted[1]
+        elif len(sv_ref.shape) == 3:
+            # Newer SHAP versions return a 3D array (samples, features, classes)
+            sv_ref     = sv_ref[:, :, 1]
+            sv_drifted = sv_drifted[:, :, 1]
 
     except Exception as e:
         logger.error(f"SHAP failed for {model_type}: {e}")

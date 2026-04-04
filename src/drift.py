@@ -334,21 +334,65 @@ def cross_dataset_evaluation(batches: list,
     all_results = []
     NEEDS_SCALING = {"svm", "logistic"}
 
+    # ── Single-class guard ────────────────────────────────────────────────────
+    # The Monday (reference) batch may be 100 % class 0 when DEBUG=True
+    # loads only a 10 % sample.  LogisticRegression and LinearSVC require
+    # at least 2 classes in y_train and raise ValueError if given only one.
+    # In that case we fall back to a DummyClassifier that always predicts the
+    # majority class — which is exactly what those models would do anyway —
+    # and record a note so the behaviour is transparent in the output.
+    n_ref_classes = y_ref.nunique()
+    if n_ref_classes < 2:
+        logger.warning(
+            f"Reference batch '{reference_name}' contains only "
+            f"{n_ref_classes} class(es) — solvers that require 2+ classes "
+            f"(logistic, svm) will use a DummyClassifier fallback."
+        )
+
+    from sklearn.dummy import DummyClassifier
+
+    def _fit_model(model_type: str, model, X_train_arr, y_train):
+        """
+        Fit model or fall back to DummyClassifier when the training
+        labels contain fewer classes than the solver requires.
+
+        Returns (fitted_model, was_fallback: bool).
+        """
+        MULTI_CLASS_REQUIRED = {"logistic", "svm"}
+        if model_type in MULTI_CLASS_REQUIRED and y_train.nunique() < 2:
+            dummy = DummyClassifier(strategy="most_frequent",
+                                    random_state=RANDOM_STATE)
+            dummy.fit(X_train_arr, y_train)
+            return dummy, True
+        model.fit(X_train_arr, y_train)
+        return model, False
+
     for model_type in model_types:
         logger.info(f"\n--- Cross-eval model: {model_type} ---")
         model = get_model(model_type)
 
         X_train = X_ref_scaled if model_type in NEEDS_SCALING else X_ref.values
-        model.fit(X_train, y_ref)
+        fitted_model, used_fallback = _fit_model(model_type, model, X_train, y_ref)
+
+        if used_fallback:
+            logger.warning(
+                f"  [{model_type}] Reference is single-class — "
+                f"using DummyClassifier (always predicts majority class)."
+            )
 
         # Self-accuracy (upper bound)
-        self_acc = accuracy_score(y_ref, model.predict(X_train))
+        self_acc = accuracy_score(y_ref, fitted_model.predict(X_train))
+        self_note = (
+            "same distribution (upper bound) [DummyClassifier — single-class ref]"
+            if used_fallback else
+            "same distribution (upper bound)"
+        )
         all_results.append({
             "model"    : model_type,
             "batch"    : reference_name,
             "batch_idx": 0,
             "accuracy" : round(self_acc, 4),
-            "note"     : "same distribution (upper bound)",
+            "note"     : self_note,
         })
         logger.info(f"  Self-accuracy: {self_acc:.4f}")
 
@@ -364,13 +408,17 @@ def cross_dataset_evaluation(batches: list,
             X_test = scaler.transform(X_test_raw) \
                      if model_type in NEEDS_SCALING else X_test_raw.values
 
-            acc = accuracy_score(y_test, model.predict(X_test))
+            acc = accuracy_score(y_test, fitted_model.predict(X_test))
             all_results.append({
                 "model"    : model_type,
                 "batch"    : curr_name,
                 "batch_idx": i,
                 "accuracy" : round(acc, 4),
-                "note"     : "cross-dataset (drift scenario)",
+                "note"     : (
+                    "cross-dataset (drift scenario) [DummyClassifier]"
+                    if used_fallback else
+                    "cross-dataset (drift scenario)"
+                ),
             })
             logger.info(f"  Batch {i} [{curr_name[:35]}]: {acc:.4f}")
 

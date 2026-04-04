@@ -21,7 +21,9 @@ import os
 import pandas as pd
 from config import (
     PROCESSED_DATA_PATH, PROCESSED_FILENAME,
-    USE_ROLLING_REFERENCE, CROSS_EVAL_MODELS,
+    TARGET_COLUMN, MODELS_PATH, REPORTS_PATH,
+    RANDOM_STATE, SHAP_SAMPLE_SIZE, SHAP_TOP_N_FEATURES,
+    DEBUG  
 )
 from drift import (
     split_by_source,
@@ -42,7 +44,8 @@ logger = get_logger("testdrift")
 def run_drift_experiment():
     logger.info("=== Drift Experiment Started ===")
 
-    # ── 1. Load processed data ─────────────────────────────────────────────
+   
+   # ── 1. Load processed data ─────────────────────────────────────────────
     processed_path = os.path.join(PROCESSED_DATA_PATH, PROCESSED_FILENAME)
     if not os.path.exists(processed_path):
         logger.error(f"Processed data not found: {processed_path}")
@@ -50,7 +53,18 @@ def run_drift_experiment():
         return
 
     logger.info(f"Loading: {processed_path}")
-    df = pd.read_csv(processed_path)
+    
+    # NEW OOM-SAFE LOADING LOGIC
+    if DEBUG:
+        logger.info("DEBUG mode: Chunk-loading to prevent memory crash...")
+        chunk_list = []
+        for chunk in pd.read_csv(processed_path, chunksize=50_000, low_memory=False):
+            # Keep 10% of each chunk to maintain temporal distribution
+            chunk_list.append(chunk.sample(frac=0.10, random_state=RANDOM_STATE))
+        df = pd.concat(chunk_list, ignore_index=True)
+    else:
+        df = pd.read_csv(processed_path, low_memory=False)
+
     logger.info(f"Total rows loaded: {len(df)}")
 
     # ── 2. Split into batches ──────────────────────────────────────────────

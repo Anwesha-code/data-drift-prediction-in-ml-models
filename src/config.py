@@ -48,7 +48,7 @@ SAVE_MODEL          = True
 SAVE_SCALER         = True
 
 # ─── Debug ────────────────────────────────────────────────
-DEBUG = False
+DEBUG = True
 
 # ─── Feature Engineering ─────────────────────────────────
 LOW_VARIANCE_THRESHOLD = 0.0
