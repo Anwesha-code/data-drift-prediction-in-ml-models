@@ -1,0 +1,118 @@
+2026-04-04 14:37:18,429 | INFO | === Training Pipeline Started ===
+2026-04-04 14:37:18,431 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 16:13:11,268 | INFO | === Training Pipeline Started ===
+2026-04-04 16:13:11,276 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 16:21:55,147 | INFO | === Training Pipeline Started ===
+2026-04-04 16:21:55,150 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 16:54:14,988 | INFO | === Training Pipeline Started ===
+2026-04-04 16:54:14,989 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 17:01:46,726 | INFO | === Training Pipeline Started ===
+2026-04-04 17:01:46,730 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 17:12:09,325 | INFO | === Training Pipeline Started ===
+2026-04-04 17:12:09,332 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 17:24:18,542 | INFO | === Training Pipeline Started ===
+2026-04-04 17:24:18,552 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 17:29:00,227 | INFO | === Training Pipeline Started ===
+2026-04-04 17:29:00,231 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 17:51:58,635 | INFO | === Training Pipeline Started ===
+2026-04-04 17:51:58,640 | INFO | Loading existing processed data: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 17:52:37,734 | INFO | === Training Pipeline Started ===
+2026-04-04 17:52:37,743 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 18:00:50,742 | INFO | === Training Pipeline Started ===
+2026-04-04 18:00:50,745 | INFO | Loading existing processed data: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 18:01:50,266 | INFO | === Training Pipeline Started ===
+2026-04-04 18:01:50,267 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 18:15:25,144 | INFO | === Training Pipeline Started ===
+2026-04-04 18:15:25,161 | INFO | Loading existing processed data: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 18:19:08,053 | INFO | === Training Pipeline Started ===
+2026-04-04 18:19:08,066 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 18:27:52,441 | INFO | === Training Pipeline Started ===
+2026-04-04 18:27:52,443 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 19:19:01,512 | INFO | === Training Pipeline Started ===
+2026-04-04 19:19:01,514 | INFO | Processed data not found. Running preprocessing...
+2026-04-04 19:22:41,834 | INFO | Train: 80000 | Test: 20000 | Features: 46
+2026-04-04 19:22:41,984 | INFO | 
+=== Training: random_forest ===
+2026-04-04 19:22:47,060 | INFO | Accuracy: 0.9976
+2026-04-04 19:22:47,060 | INFO | 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     16057
+           1       1.00      0.99      0.99      3943
+
+    accuracy                           1.00     20000
+   macro avg       1.00      1.00      1.00     20000
+weighted avg       1.00      1.00      1.00     20000
+
+2026-04-04 19:22:47,072 | INFO | Confusion Matrix:
+[[16040    17]
+ [   32  3911]]
+2026-04-04 19:22:47,289 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\random_forest_v1.pkl
+2026-04-04 19:22:47,297 | INFO | 
+=== Training: xgboost ===
+2026-04-04 19:22:49,324 | INFO | Accuracy: 0.9979
+2026-04-04 19:22:49,325 | INFO | 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     16057
+           1       1.00      0.99      0.99      3943
+
+    accuracy                           1.00     20000
+   macro avg       1.00      1.00      1.00     20000
+weighted avg       1.00      1.00      1.00     20000
+
+2026-04-04 19:22:49,326 | INFO | Confusion Matrix:
+[[16040    17]
+ [   26  3917]]
+2026-04-04 19:22:49,355 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\xgboost_v1.pkl
+2026-04-04 19:22:49,360 | INFO | 
+=== Training: logistic ===
+2026-04-04 19:22:51,162 | INFO | Accuracy: 0.9383
+2026-04-04 19:22:51,162 | INFO | 
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96     16057
+           1       0.83      0.86      0.85      3943
+
+    accuracy                           0.94     20000
+   macro avg       0.90      0.91      0.90     20000
+weighted avg       0.94      0.94      0.94     20000
+
+2026-04-04 19:22:51,164 | INFO | Confusion Matrix:
+[[15380   677]
+ [  557  3386]]
+2026-04-04 19:22:51,196 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\logistic_v1.pkl
+2026-04-04 19:22:51,198 | INFO | 
+=== Training: decision_tree ===
+2026-04-04 19:22:53,331 | INFO | Accuracy: 0.9929
+2026-04-04 19:22:53,332 | INFO | 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     16057
+           1       0.98      0.98      0.98      3943
+
+    accuracy                           0.99     20000
+   macro avg       0.99      0.99      0.99     20000
+weighted avg       0.99      0.99      0.99     20000
+
+2026-04-04 19:22:53,333 | INFO | Confusion Matrix:
+[[15982    75]
+ [   66  3877]]
+2026-04-04 19:22:53,348 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\decision_tree_v1.pkl
+2026-04-04 19:22:53,351 | INFO | 
+=== Training: svm ===
+2026-04-04 19:23:08,079 | INFO | Accuracy: 0.9359
+2026-04-04 19:23:08,080 | INFO | 
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96     16057
+           1       0.83      0.85      0.84      3943
+
+    accuracy                           0.94     20000
+   macro avg       0.90      0.90      0.90     20000
+weighted avg       0.94      0.94      0.94     20000
+
+2026-04-04 19:23:08,081 | INFO | Confusion Matrix:
+[[15378   679]
+ [  602  3341]]
+2026-04-04 19:23:08,109 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\svm_v1.pkl

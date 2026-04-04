@@ -1,0 +1,232 @@
+2026-04-04 19:25:59,733 | INFO | Batch [Monday-WorkingHours.pcap_ISCX.csv]: 529481 rows
+2026-04-04 19:26:00,089 | INFO | Batch [Tuesday-WorkingHours.pcap_ISCX.csv]: 445645 rows
+2026-04-04 19:26:00,395 | INFO | Batch [Wednesday-workingHours.pcap_ISCX.csv]: 691406 rows
+2026-04-04 19:26:00,578 | INFO | Batch [Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv]: 170231 rows
+2026-04-04 19:26:00,788 | INFO | Batch [Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv]: 288395 rows
+2026-04-04 19:26:00,991 | INFO | Batch [Friday-WorkingHours-Morning.pcap_ISCX.csv]: 190911 rows
+2026-04-04 19:30:06,700 | INFO | Batch [Monday-WorkingHours.pcap_ISCX.csv]: 52939 rows
+2026-04-04 19:30:06,733 | INFO | Batch [Tuesday-WorkingHours.pcap_ISCX.csv]: 44544 rows
+2026-04-04 19:30:06,790 | INFO | Batch [Wednesday-workingHours.pcap_ISCX.csv]: 69134 rows
+2026-04-04 19:30:06,816 | INFO | Batch [Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv]: 17074 rows
+2026-04-04 19:30:06,845 | INFO | Batch [Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv]: 28795 rows
+2026-04-04 19:30:06,867 | INFO | Batch [Friday-WorkingHours-Morning.pcap_ISCX.csv]: 19088 rows
+2026-04-04 19:30:06,895 | INFO | Batch [Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv]: 28623 rows
+2026-04-04 19:30:06,916 | INFO | Batch [Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv]: 22591 rows
+2026-04-04 19:30:06,942 | INFO | [Monday-WorkingHours.pcap_ISCX.csv] Label distribution:
+Label
+0    1.0
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:06,945 | INFO | [Tuesday-WorkingHours.pcap_ISCX.csv] Label distribution:
+Label
+0    0.96893
+1    0.03107
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:06,947 | INFO | [Wednesday-workingHours.pcap_ISCX.csv] Label distribution:
+Label
+0    0.634825
+1    0.365175
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:06,948 | INFO | [Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv] Label distribution:
+Label
+0    0.988228
+1    0.011772
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:06,950 | INFO | [Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv] Label distribution:
+Label
+0    0.999861
+1    0.000139
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:06,951 | INFO | [Friday-WorkingHours-Morning.pcap_ISCX.csv] Label distribution:
+Label
+0    0.989575
+1    0.010425
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:06,956 | INFO | [Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv] Label distribution:
+Label
+0    0.445201
+1    0.554799
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:06,958 | INFO | [Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv] Label distribution:
+Label
+0    0.43327
+1    0.56673
+Name: proportion, dtype: float64
+
+2026-04-04 19:30:07,603 | INFO | [Fixed] 0 vs 1 | KL=0.5770 | JS=0.0109 | WS=58459.0496 | FeatJS=0.0006 | Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 19:30:08,555 | INFO | [Fixed] 0 vs 2 | KL=7.7521 | JS=0.1471 | WS=1841756.3783 | FeatJS=0.0235 | Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 19:30:08,998 | INFO | [Fixed] 0 vs 3 | KL=0.2071 | JS=0.0041 | WS=108933.2041 | FeatJS=0.0013 | Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 19:30:09,576 | INFO | [Fixed] 0 vs 4 | KL=0.0018 | JS=0.0000 | WS=178856.0537 | FeatJS=0.0027 | Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 19:30:10,165 | INFO | [Fixed] 0 vs 5 | KL=0.1821 | JS=0.0036 | WS=114944.2999 | FeatJS=0.0013 | Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 19:30:10,678 | INFO | [Fixed] 0 vs 6 | KL=12.0876 | JS=0.2469 | WS=390731.0981 | FeatJS=0.0110 | Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 19:30:11,269 | INFO | [Fixed] 0 vs 7 | KL=12.3652 | JS=0.2540 | WS=984674.1021 | FeatJS=0.0341 | Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 19:30:11,275 | INFO | Drift results saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\drift_scores.json
+2026-04-04 19:30:11,276 | INFO | 
+--- Rolling Reference Window Drift ---
+2026-04-04 19:30:11,933 | INFO | [Rolling] 0 -> 1 | KL=0.5770 | JS=0.0109 | WS=58459.0496 | Monday-WorkingHours.pcap_ISCX.csv -> Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 19:30:12,837 | INFO | [Rolling] 1 -> 2 | KL=0.6314 | JS=0.1004 | WS=1845590.1866 | Tuesday-WorkingHours.pcap_ISCX.csv -> Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 19:30:13,559 | INFO | [Rolling] 2 -> 3 | KL=0.3969 | JS=0.1238 | WS=1811922.2259 | Wednesday-workingHours.pcap_ISCX.csv -> Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 19:30:13,902 | INFO | [Rolling] 3 -> 4 | KL=0.0111 | JS=0.0038 | WS=196961.0338 | Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv -> Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 19:30:14,365 | INFO | [Rolling] 4 -> 5 | KL=0.0348 | JS=0.0033 | WS=259451.7737 | Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv -> Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 19:30:14,747 | INFO | [Rolling] 5 -> 6 | KL=1.8494 | JS=0.2229 | WS=479789.5165 | Friday-WorkingHours-Morning.pcap_ISCX.csv -> Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 19:30:15,142 | INFO | [Rolling] 6 -> 7 | KL=0.0003 | JS=0.0001 | WS=1215287.8146 | Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv -> Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 19:30:15,146 | INFO | Rolling drift results saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\rolling_drift_scores.json
+2026-04-04 19:30:16,705 | INFO | 
+--- Cross-eval model: random_forest ---
+2026-04-04 19:30:17,318 | INFO |   Self-accuracy: 1.0000
+2026-04-04 19:30:17,394 | INFO |   Batch 1 [Tuesday-WorkingHours.pcap_ISCX.csv]: 0.9689
+2026-04-04 19:30:17,470 | INFO |   Batch 2 [Wednesday-workingHours.pcap_ISCX.cs]: 0.6348
+2026-04-04 19:30:17,550 | INFO |   Batch 3 [Thursday-WorkingHours-Morning-WebAt]: 0.9882
+2026-04-04 19:30:17,633 | INFO |   Batch 4 [Thursday-WorkingHours-Afternoon-Inf]: 0.9999
+2026-04-04 19:30:17,901 | INFO |   Batch 5 [Friday-WorkingHours-Morning.pcap_IS]: 0.9896
+2026-04-04 19:30:17,983 | INFO |   Batch 6 [Friday-WorkingHours-Afternoon-PortS]: 0.4452
+2026-04-04 19:30:18,133 | INFO |   Batch 7 [Friday-WorkingHours-Afternoon-DDos.]: 0.4333
+2026-04-04 19:30:18,134 | INFO | 
+--- Cross-eval model: xgboost ---
+2026-04-04 19:30:18,812 | INFO |   Self-accuracy: 1.0000
+2026-04-04 19:30:18,863 | INFO |   Batch 1 [Tuesday-WorkingHours.pcap_ISCX.csv]: 0.9689
+2026-04-04 19:30:18,936 | INFO |   Batch 2 [Wednesday-workingHours.pcap_ISCX.cs]: 0.6348
+2026-04-04 19:30:18,965 | INFO |   Batch 3 [Thursday-WorkingHours-Morning-WebAt]: 0.9882
+2026-04-04 19:30:19,001 | INFO |   Batch 4 [Thursday-WorkingHours-Afternoon-Inf]: 0.9999
+2026-04-04 19:30:19,027 | INFO |   Batch 5 [Friday-WorkingHours-Morning.pcap_IS]: 0.9896
+2026-04-04 19:30:19,063 | INFO |   Batch 6 [Friday-WorkingHours-Afternoon-PortS]: 0.4452
+2026-04-04 19:30:19,095 | INFO |   Batch 7 [Friday-WorkingHours-Afternoon-DDos.]: 0.4333
+2026-04-04 19:30:19,096 | INFO | 
+--- Cross-eval model: logistic ---
+2026-04-04 21:13:25,321 | INFO | Batch [Monday-WorkingHours.pcap_ISCX.csv]: 52939 rows
+2026-04-04 21:13:25,353 | INFO | Batch [Tuesday-WorkingHours.pcap_ISCX.csv]: 44544 rows
+2026-04-04 21:13:25,391 | INFO | Batch [Wednesday-workingHours.pcap_ISCX.csv]: 69134 rows
+2026-04-04 21:13:25,413 | INFO | Batch [Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv]: 17074 rows
+2026-04-04 21:13:25,440 | INFO | Batch [Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv]: 28795 rows
+2026-04-04 21:13:25,464 | INFO | Batch [Friday-WorkingHours-Morning.pcap_ISCX.csv]: 19088 rows
+2026-04-04 21:13:25,496 | INFO | Batch [Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv]: 28623 rows
+2026-04-04 21:13:25,525 | INFO | Batch [Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv]: 22591 rows
+2026-04-04 21:13:25,640 | INFO | [Monday-WorkingHours.pcap_ISCX.csv] Label distribution:
+Label
+0    1.0
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:25,646 | INFO | [Tuesday-WorkingHours.pcap_ISCX.csv] Label distribution:
+Label
+0    0.96893
+1    0.03107
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:25,655 | INFO | [Wednesday-workingHours.pcap_ISCX.csv] Label distribution:
+Label
+0    0.634825
+1    0.365175
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:25,661 | INFO | [Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv] Label distribution:
+Label
+0    0.988228
+1    0.011772
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:25,666 | INFO | [Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv] Label distribution:
+Label
+0    0.999861
+1    0.000139
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:25,669 | INFO | [Friday-WorkingHours-Morning.pcap_ISCX.csv] Label distribution:
+Label
+0    0.989575
+1    0.010425
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:25,683 | INFO | [Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv] Label distribution:
+Label
+0    0.445201
+1    0.554799
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:25,703 | INFO | [Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv] Label distribution:
+Label
+0    0.43327
+1    0.56673
+Name: proportion, dtype: float64
+
+2026-04-04 21:13:26,759 | INFO | [Fixed] 0 vs 1 | KL=0.5770 | JS=0.0109 | WS=58459.0496 | FeatJS=0.0006 | Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 21:13:27,750 | INFO | [Fixed] 0 vs 2 | KL=7.7521 | JS=0.1471 | WS=1841756.3783 | FeatJS=0.0235 | Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 21:13:28,263 | INFO | [Fixed] 0 vs 3 | KL=0.2071 | JS=0.0041 | WS=108933.2041 | FeatJS=0.0013 | Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 21:13:28,788 | INFO | [Fixed] 0 vs 4 | KL=0.0018 | JS=0.0000 | WS=178856.0537 | FeatJS=0.0027 | Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 21:13:29,356 | INFO | [Fixed] 0 vs 5 | KL=0.1821 | JS=0.0036 | WS=114944.2999 | FeatJS=0.0013 | Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 21:13:29,953 | INFO | [Fixed] 0 vs 6 | KL=12.0876 | JS=0.2469 | WS=390731.0981 | FeatJS=0.0110 | Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 21:13:30,640 | INFO | [Fixed] 0 vs 7 | KL=12.3652 | JS=0.2540 | WS=984674.1021 | FeatJS=0.0341 | Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 21:13:30,668 | INFO | Drift results saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\drift_scores.json
+2026-04-04 21:13:30,669 | INFO | 
+--- Rolling Reference Window Drift ---
+2026-04-04 21:13:31,536 | INFO | [Rolling] 0 -> 1 | KL=0.5770 | JS=0.0109 | WS=58459.0496 | Monday-WorkingHours.pcap_ISCX.csv -> Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 21:13:32,903 | INFO | [Rolling] 1 -> 2 | KL=0.6314 | JS=0.1004 | WS=1845590.1866 | Tuesday-WorkingHours.pcap_ISCX.csv -> Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 21:13:33,698 | INFO | [Rolling] 2 -> 3 | KL=0.3969 | JS=0.1238 | WS=1811922.2259 | Wednesday-workingHours.pcap_ISCX.csv -> Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 21:13:34,094 | INFO | [Rolling] 3 -> 4 | KL=0.0111 | JS=0.0038 | WS=196961.0338 | Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv -> Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 21:13:34,600 | INFO | [Rolling] 4 -> 5 | KL=0.0348 | JS=0.0033 | WS=259451.7737 | Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv -> Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 21:13:34,957 | INFO | [Rolling] 5 -> 6 | KL=1.8494 | JS=0.2229 | WS=479789.5165 | Friday-WorkingHours-Morning.pcap_ISCX.csv -> Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 21:13:35,361 | INFO | [Rolling] 6 -> 7 | KL=0.0003 | JS=0.0001 | WS=1215287.8146 | Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv -> Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 21:13:35,363 | INFO | Rolling drift results saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\rolling_drift_scores.json
+2026-04-04 21:13:37,311 | WARNING | Reference batch 'Monday-WorkingHours.pcap_ISCX.csv' contains only 1 class(es) — solvers that require 2+ classes (logistic, svm) will use a DummyClassifier fallback.
+2026-04-04 21:13:37,314 | INFO | 
+--- Cross-eval model: random_forest ---
+2026-04-04 21:13:38,382 | INFO |   Self-accuracy: 1.0000
+2026-04-04 21:13:38,578 | INFO |   Batch 1 [Tuesday-WorkingHours.pcap_ISCX.csv]: 0.9689
+2026-04-04 21:13:38,939 | INFO |   Batch 2 [Wednesday-workingHours.pcap_ISCX.cs]: 0.6348
+2026-04-04 21:13:39,106 | INFO |   Batch 3 [Thursday-WorkingHours-Morning-WebAt]: 0.9882
+2026-04-04 21:13:39,248 | INFO |   Batch 4 [Thursday-WorkingHours-Afternoon-Inf]: 0.9999
+2026-04-04 21:13:39,808 | INFO |   Batch 5 [Friday-WorkingHours-Morning.pcap_IS]: 0.9896
+2026-04-04 21:13:39,962 | INFO |   Batch 6 [Friday-WorkingHours-Afternoon-PortS]: 0.4452
+2026-04-04 21:13:40,171 | INFO |   Batch 7 [Friday-WorkingHours-Afternoon-DDos.]: 0.4333
+2026-04-04 21:13:40,172 | INFO | 
+--- Cross-eval model: xgboost ---
+2026-04-04 21:13:41,060 | INFO |   Self-accuracy: 1.0000
+2026-04-04 21:13:41,097 | INFO |   Batch 1 [Tuesday-WorkingHours.pcap_ISCX.csv]: 0.9689
+2026-04-04 21:13:41,149 | INFO |   Batch 2 [Wednesday-workingHours.pcap_ISCX.cs]: 0.6348
+2026-04-04 21:13:41,170 | INFO |   Batch 3 [Thursday-WorkingHours-Morning-WebAt]: 0.9882
+2026-04-04 21:13:41,203 | INFO |   Batch 4 [Thursday-WorkingHours-Afternoon-Inf]: 0.9999
+2026-04-04 21:13:41,228 | INFO |   Batch 5 [Friday-WorkingHours-Morning.pcap_IS]: 0.9896
+2026-04-04 21:13:41,258 | INFO |   Batch 6 [Friday-WorkingHours-Afternoon-PortS]: 0.4452
+2026-04-04 21:13:41,289 | INFO |   Batch 7 [Friday-WorkingHours-Afternoon-DDos.]: 0.4333
+2026-04-04 21:13:41,289 | INFO | 
+--- Cross-eval model: logistic ---
+2026-04-04 21:13:41,298 | WARNING |   [logistic] Reference is single-class — using DummyClassifier (always predicts majority class).
+2026-04-04 21:13:41,306 | INFO |   Self-accuracy: 1.0000
+2026-04-04 21:13:41,375 | INFO |   Batch 1 [Tuesday-WorkingHours.pcap_ISCX.csv]: 0.9689
+2026-04-04 21:13:41,458 | INFO |   Batch 2 [Wednesday-workingHours.pcap_ISCX.cs]: 0.6348
+2026-04-04 21:13:41,492 | INFO |   Batch 3 [Thursday-WorkingHours-Morning-WebAt]: 0.9882
+2026-04-04 21:13:41,547 | INFO |   Batch 4 [Thursday-WorkingHours-Afternoon-Inf]: 0.9999
+2026-04-04 21:13:41,575 | INFO |   Batch 5 [Friday-WorkingHours-Morning.pcap_IS]: 0.9896
+2026-04-04 21:13:41,632 | INFO |   Batch 6 [Friday-WorkingHours-Afternoon-PortS]: 0.4452
+2026-04-04 21:13:41,680 | INFO |   Batch 7 [Friday-WorkingHours-Afternoon-DDos.]: 0.4333
+2026-04-04 21:13:41,681 | INFO | 
+--- Cross-eval model: decision_tree ---
+2026-04-04 21:13:41,774 | INFO |   Self-accuracy: 1.0000
+2026-04-04 21:13:41,839 | INFO |   Batch 1 [Tuesday-WorkingHours.pcap_ISCX.csv]: 0.9689
+2026-04-04 21:13:41,934 | INFO |   Batch 2 [Wednesday-workingHours.pcap_ISCX.cs]: 0.6348
+2026-04-04 21:13:41,980 | INFO |   Batch 3 [Thursday-WorkingHours-Morning-WebAt]: 0.9882
+2026-04-04 21:13:42,030 | INFO |   Batch 4 [Thursday-WorkingHours-Afternoon-Inf]: 0.9999
+2026-04-04 21:13:42,087 | INFO |   Batch 5 [Friday-WorkingHours-Morning.pcap_IS]: 0.9896
+2026-04-04 21:13:42,140 | INFO |   Batch 6 [Friday-WorkingHours-Afternoon-PortS]: 0.4452
+2026-04-04 21:13:42,190 | INFO |   Batch 7 [Friday-WorkingHours-Afternoon-DDos.]: 0.4333
+2026-04-04 21:13:42,191 | INFO | 
+--- Cross-eval model: svm ---
+2026-04-04 21:13:42,200 | WARNING |   [svm] Reference is single-class — using DummyClassifier (always predicts majority class).
+2026-04-04 21:13:42,223 | INFO |   Self-accuracy: 1.0000
+2026-04-04 21:13:42,365 | INFO |   Batch 1 [Tuesday-WorkingHours.pcap_ISCX.csv]: 0.9689
+2026-04-04 21:13:42,486 | INFO |   Batch 2 [Wednesday-workingHours.pcap_ISCX.cs]: 0.6348
+2026-04-04 21:13:42,528 | INFO |   Batch 3 [Thursday-WorkingHours-Morning-WebAt]: 0.9882
+2026-04-04 21:13:42,584 | INFO |   Batch 4 [Thursday-WorkingHours-Afternoon-Inf]: 0.9999
+2026-04-04 21:13:42,626 | INFO |   Batch 5 [Friday-WorkingHours-Morning.pcap_IS]: 0.9896
+2026-04-04 21:13:42,691 | INFO |   Batch 6 [Friday-WorkingHours-Afternoon-PortS]: 0.4452
+2026-04-04 21:13:42,784 | INFO |   Batch 7 [Friday-WorkingHours-Afternoon-DDos.]: 0.4333
+2026-04-04 21:13:42,803 | INFO | Cross-eval results saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\cross_eval_accuracy.json
+2026-04-04 21:13:42,809 | WARNING | DRIFT ALERT | Wednesday-workingHours.pcap_ISCX.csv | avg_acc=0.6348 < 0.8
+2026-04-04 21:13:42,811 | WARNING | DRIFT ALERT | Friday-WorkingHours-Afternoon-PortScan.p | avg_acc=0.4452 < 0.8
+2026-04-04 21:13:42,814 | WARNING | DRIFT ALERT | Friday-WorkingHours-Afternoon-DDos.pcap_ | avg_acc=0.4333 < 0.8
+2026-04-04 21:13:42,823 | INFO | Alerts saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\drift_alerts.json

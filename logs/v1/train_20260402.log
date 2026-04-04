@@ -1,0 +1,54 @@
+2026-04-02 16:20:59,253 | INFO | === Training Pipeline Started ===
+2026-04-02 16:20:59,261 | INFO | Processed data not found. Running preprocessing...
+2026-04-02 16:28:42,406 | INFO | Train size: 2262300 | Test size: 565576
+2026-04-02 16:29:37,498 | INFO | 
+=== Training: random_forest ===
+2026-04-02 16:40:39,876 | INFO | Accuracy: 0.9992
+2026-04-02 16:40:40,834 | INFO | 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    454265
+           1       1.00      1.00      1.00    111311
+
+    accuracy                           1.00    565576
+   macro avg       1.00      1.00      1.00    565576
+weighted avg       1.00      1.00      1.00    565576
+
+2026-04-02 16:40:41,099 | INFO | Confusion Matrix:
+[[453971    294]
+ [   180 111131]]
+2026-04-02 16:40:42,732 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\random_forest_v1.pkl
+2026-04-02 16:40:42,760 | INFO | 
+=== Training: logistic ===
+2026-04-02 16:44:51,570 | INFO | Accuracy: 0.9376
+2026-04-02 16:44:52,222 | INFO | 
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96    454265
+           1       0.85      0.83      0.84    111311
+
+    accuracy                           0.94    565576
+   macro avg       0.90      0.90      0.90    565576
+weighted avg       0.94      0.94      0.94    565576
+
+2026-04-02 16:44:52,324 | INFO | Confusion Matrix:
+[[438023  16242]
+ [ 19074  92237]]
+2026-04-02 16:44:52,676 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\logistic_v1.pkl
+2026-04-02 16:44:52,680 | INFO | 
+=== Training: xgboost ===
+2026-04-02 16:45:42,346 | INFO | Accuracy: 0.9991
+2026-04-02 16:45:43,174 | INFO | 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    454265
+           1       1.00      1.00      1.00    111311
+
+    accuracy                           1.00    565576
+   macro avg       1.00      1.00      1.00    565576
+weighted avg       1.00      1.00      1.00    565576
+
+2026-04-02 16:45:43,345 | INFO | Confusion Matrix:
+[[453945    320]
+ [   208 111103]]
+2026-04-02 16:45:44,271 | INFO | Model saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\xgboost_v1.pkl

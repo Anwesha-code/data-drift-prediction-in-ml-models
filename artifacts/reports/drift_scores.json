@@ -1,0 +1,114 @@
+[
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Tuesday-WorkingHours.pcap_ISCX.csv",
+        "mean_feature_js": 0.00059,
+        "mean_feature_wasserstein": 58459.049561,
+        "top_drifted_features": {
+            "Destination Port": 0.00533,
+            "Init_Win_bytes_forward": 0.003344,
+            "Packet Length Mean": 0.001836,
+            "Bwd Packet Length Mean": 0.00177,
+            "Bwd Packet Length Max": 0.001616
+        },
+        "label_kl_divergence": 0.576979,
+        "label_js_divergence": 0.010891,
+        "label_wasserstein": 0.03107
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Wednesday-workingHours.pcap_ISCX.csv",
+        "mean_feature_js": 0.023529,
+        "mean_feature_wasserstein": 1841756.37833,
+        "top_drifted_features": {
+            "Bwd Packet Length Std": 0.087596,
+            "Packet Length Variance": 0.083325,
+            "Max Packet Length": 0.078089,
+            "Bwd Packet Length Max": 0.077981,
+            "Bwd Packet Length Mean": 0.075437
+        },
+        "label_kl_divergence": 7.752125,
+        "label_js_divergence": 0.147126,
+        "label_wasserstein": 0.365175
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+        "mean_feature_js": 0.001294,
+        "mean_feature_wasserstein": 108933.204069,
+        "top_drifted_features": {
+            "Init_Win_bytes_backward": 0.012546,
+            "Init_Win_bytes_forward": 0.011525,
+            "Destination Port": 0.009537,
+            "Bwd IAT Max": 0.002542,
+            "Flow IAT Max": 0.002152
+        },
+        "label_kl_divergence": 0.207072,
+        "label_js_divergence": 0.004097,
+        "label_wasserstein": 0.011772
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+        "mean_feature_js": 0.002677,
+        "mean_feature_wasserstein": 178856.053677,
+        "top_drifted_features": {
+            "Destination Port": 0.034643,
+            "PSH Flag Count": 0.013768,
+            "Init_Win_bytes_backward": 0.012296,
+            "Init_Win_bytes_forward": 0.011733,
+            "Bwd Packet Length Mean": 0.004889
+        },
+        "label_kl_divergence": 0.001826,
+        "label_js_divergence": 4.8e-05,
+        "label_wasserstein": 0.000139
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+        "mean_feature_js": 0.001343,
+        "mean_feature_wasserstein": 114944.299862,
+        "top_drifted_features": {
+            "Destination Port": 0.021347,
+            "Init_Win_bytes_backward": 0.009738,
+            "Init_Win_bytes_forward": 0.007811,
+            "Bwd Packet Length Min": 0.001832,
+            "Bwd IAT Max": 0.001712
+        },
+        "label_kl_divergence": 0.182106,
+        "label_js_divergence": 0.003627,
+        "label_wasserstein": 0.010425
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+        "mean_feature_js": 0.010968,
+        "mean_feature_wasserstein": 390731.098088,
+        "top_drifted_features": {
+            "Destination Port": 0.095448,
+            "PSH Flag Count": 0.088479,
+            "Init_Win_bytes_forward": 0.06377,
+            "Down/Up Ratio": 0.033783,
+            "ACK Flag Count": 0.024519
+        },
+        "label_kl_divergence": 12.08758,
+        "label_js_divergence": 0.246916,
+        "label_wasserstein": 0.445201
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+        "mean_feature_js": 0.034122,
+        "mean_feature_wasserstein": 984674.102115,
+        "top_drifted_features": {
+            "Packet Length Variance": 0.167343,
+            "Max Packet Length": 0.160562,
+            "Packet Length Mean": 0.157182,
+            "Bwd Packet Length Std": 0.150484,
+            "Bwd Packet Length Mean": 0.148135
+        },
+        "label_kl_divergence": 12.365228,
+        "label_js_divergence": 0.253996,
+        "label_wasserstein": 0.43327
+    }
+]

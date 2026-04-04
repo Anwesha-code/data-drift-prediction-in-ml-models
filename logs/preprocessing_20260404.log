@@ -1,0 +1,553 @@
+2026-04-04 14:37:18,433 | INFO | Loading (chunked): Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 14:37:32,322 | INFO | Loading (chunked): Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 14:37:39,444 | INFO | Loading (chunked): Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 14:38:03,489 | INFO | Loading (chunked): Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 14:38:09,020 | INFO | Loading (chunked): Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 14:38:17,308 | INFO | Loading (chunked): Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 14:38:23,694 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 14:38:36,152 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 16:13:11,277 | INFO | Loading (chunked): Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 16:13:43,210 | INFO |   Loaded 529,918 rows | Memory: 211.4 MB
+2026-04-04 16:13:43,230 | INFO | Loading (chunked): Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 16:14:02,408 | INFO |   Loaded 445,909 rows | Memory: 181.1 MB
+2026-04-04 16:14:02,420 | INFO | Loading (chunked): Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 16:14:27,582 | INFO |   Loaded 692,703 rows | Memory: 277.7 MB
+2026-04-04 16:14:27,600 | INFO | Loading (chunked): Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 16:14:32,743 | INFO |   Loaded 170,366 rows | Memory: 71.3 MB
+2026-04-04 16:14:32,743 | INFO | Loading (chunked): Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 16:14:39,078 | INFO |   Loaded 288,602 rows | Memory: 120.3 MB
+2026-04-04 16:14:39,080 | INFO | Loading (chunked): Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 16:14:43,869 | INFO |   Loaded 191,033 rows | Memory: 77.4 MB
+2026-04-04 16:14:43,869 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 16:14:50,283 | INFO |   Loaded 286,467 rows | Memory: 116.6 MB
+2026-04-04 16:14:50,285 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 16:14:58,910 | INFO |   Loaded 225,745 rows | Memory: 90.5 MB
+2026-04-04 16:14:58,911 | INFO | Concatenating 8 files...
+2026-04-04 16:15:17,257 | INFO | Total records loaded: 2,830,743 | Total memory: 1176.9 MB
+2026-04-04 16:21:55,152 | INFO | Loading (chunked): Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 16:22:04,974 | INFO |   [Monday-WorkingHours.pcap_ISCX.] Removed 437 NaN/Inf rows
+2026-04-04 16:22:05,307 | INFO |   Loaded 529,481 rows | Memory: 356.3 MB
+2026-04-04 16:22:05,309 | INFO | Loading (chunked): Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 16:22:15,353 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] Removed 264 NaN/Inf rows
+2026-04-04 16:22:15,583 | INFO |   Loaded 445,645 rows | Memory: 300.4 MB
+2026-04-04 16:22:15,584 | INFO | Loading (chunked): Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 16:22:28,174 | INFO |   [Wednesday-workingHours.pcap_IS] Removed 1,297 NaN/Inf rows
+2026-04-04 16:22:28,801 | INFO |   Loaded 691,406 rows | Memory: 468.0 MB
+2026-04-04 16:22:28,804 | INFO | Loading (chunked): Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 16:22:33,303 | INFO |   [Thursday-WorkingHours-Morning-] Removed 135 NaN/Inf rows
+2026-04-04 16:22:33,409 | INFO |   Loaded 170,231 rows | Memory: 118.3 MB
+2026-04-04 16:22:33,411 | INFO | Loading (chunked): Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 16:22:44,904 | INFO |   [Thursday-WorkingHours-Afternoo] Removed 207 NaN/Inf rows
+2026-04-04 16:22:45,190 | INFO |   Loaded 288,395 rows | Memory: 201.6 MB
+2026-04-04 16:22:45,193 | INFO | Loading (chunked): Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 16:22:48,974 | INFO |   [Friday-WorkingHours-Morning.pc] Removed 122 NaN/Inf rows
+2026-04-04 16:22:49,115 | INFO |   Loaded 190,911 rows | Memory: 130.0 MB
+2026-04-04 16:22:49,116 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 16:54:14,990 | INFO | Loading (chunked): Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 16:54:23,647 | INFO |   [Monday-WorkingHours.pcap_ISCX.] Removed 437 NaN/Inf rows
+2026-04-04 16:54:23,867 | INFO |   Loaded 529,481 rows | Memory: 352.1 MB
+2026-04-04 16:54:23,947 | INFO | Loading (chunked): Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 16:54:31,396 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] Removed 264 NaN/Inf rows
+2026-04-04 16:54:31,646 | INFO |   Loaded 445,645 rows | Memory: 296.9 MB
+2026-04-04 16:54:31,758 | INFO | Loading (chunked): Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 16:55:00,376 | INFO |   [Wednesday-workingHours.pcap_IS] Removed 1,297 NaN/Inf rows
+2026-04-04 16:55:00,760 | INFO |   Loaded 691,406 rows | Memory: 462.5 MB
+2026-04-04 16:55:00,838 | INFO | Loading (chunked): Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 16:55:04,981 | INFO |   [Thursday-WorkingHours-Morning-] Removed 135 NaN/Inf rows
+2026-04-04 16:55:05,166 | INFO |   Loaded 170,231 rows | Memory: 116.9 MB
+2026-04-04 16:55:05,277 | INFO | Loading (chunked): Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 16:55:14,215 | INFO |   [Thursday-WorkingHours-Afternoo] Removed 207 NaN/Inf rows
+2026-04-04 16:55:14,356 | INFO |   Loaded 288,395 rows | Memory: 199.3 MB
+2026-04-04 16:55:14,403 | INFO | Loading (chunked): Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 16:55:20,166 | INFO |   [Friday-WorkingHours-Morning.pc] Removed 122 NaN/Inf rows
+2026-04-04 16:55:20,350 | INFO |   Loaded 190,911 rows | Memory: 128.5 MB
+2026-04-04 16:55:20,443 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 16:55:30,682 | INFO |   [Friday-WorkingHours-Afternoon-] Removed 371 NaN/Inf rows
+2026-04-04 16:55:30,797 | INFO |   Loaded 286,096 rows | Memory: 196.0 MB
+2026-04-04 16:55:30,879 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 16:55:36,045 | INFO |   [Friday-WorkingHours-Afternoon-] Removed 34 NaN/Inf rows
+2026-04-04 16:55:36,222 | INFO |   Loaded 225,711 rows | Memory: 153.2 MB
+2026-04-04 16:55:36,298 | INFO | Concatenating 8 files...
+2026-04-04 17:01:46,733 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:02:19,864 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 17:02:19,879 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:02:56,159 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 17:02:56,172 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:03:27,171 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 17:03:27,174 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 17:03:34,867 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 17:03:34,870 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 17:03:47,084 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 17:03:47,087 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 17:03:56,955 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 17:03:56,956 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 17:04:11,442 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 17:04:11,447 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 17:04:21,903 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 17:04:21,904 | INFO | Stream complete: 2,827,876 rows written to disk (2,867 NaN/Inf rows removed total)
+2026-04-04 17:04:21,904 | INFO | Reading interim file: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\interim\combined_cleaned.csv
+2026-04-04 17:12:09,333 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 17:12:09,337 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:12:40,989 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 17:12:41,031 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:13:01,768 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 17:13:01,822 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:13:36,403 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 17:13:36,502 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 17:13:49,137 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 17:13:49,230 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 17:14:10,877 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 17:14:10,959 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 17:14:21,484 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 17:14:21,544 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 17:14:36,886 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 17:14:36,976 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 17:14:49,402 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 17:14:49,463 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 17:14:49,464 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 17:14:49,467 | INFO | Loading reference for feature selection: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:24:18,554 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 17:24:18,558 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:24:57,771 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 17:24:57,821 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:25:16,755 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 17:25:16,853 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:25:44,368 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 17:25:44,441 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 17:25:50,948 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 17:25:51,023 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 17:26:02,154 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 17:26:02,196 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 17:26:12,601 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 17:26:12,655 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 17:26:23,430 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 17:26:23,491 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 17:26:32,188 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 17:26:32,230 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 17:26:32,231 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 17:26:32,232 | INFO | Streaming reference for feature selection: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:26:48,841 | INFO | Feature selection fitted. Columns to keep: 46
+2026-04-04 17:26:48,845 | INFO | === Stage 3: Building processed CSV ===
+2026-04-04 17:26:48,850 | INFO | Processing: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:27:11,127 | INFO |   Written 529,481 rows (total so far: 529,481)
+2026-04-04 17:27:12,051 | INFO | Processing: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:27:30,240 | INFO |   Written 445,645 rows (total so far: 975,126)
+2026-04-04 17:27:30,385 | INFO | Processing: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:29:00,232 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 17:29:00,234 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:29:29,660 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 17:29:29,740 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:29:49,516 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 17:29:49,602 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:30:17,855 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 17:30:17,907 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 17:30:24,547 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 17:30:24,618 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 17:30:35,124 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 17:30:35,194 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 17:30:43,415 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 17:30:43,456 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 17:30:53,964 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 17:30:54,005 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 17:31:04,308 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 17:31:04,370 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 17:31:04,371 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 17:31:04,372 | INFO | Sampling reference data for feature selection
+2026-04-04 17:31:12,243 | INFO | === Stage 3: Building processed CSV ===
+2026-04-04 17:31:12,246 | INFO | Processing: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:31:33,667 | INFO |   Written 529,481 rows (total so far: 529,481)
+2026-04-04 17:31:34,485 | INFO | Processing: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:31:50,533 | INFO |   Written 445,645 rows (total so far: 975,126)
+2026-04-04 17:31:50,679 | INFO | Processing: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:52:37,743 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 17:52:37,747 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:53:25,347 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 17:53:25,416 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:53:42,912 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 17:53:42,970 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:54:20,386 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 17:54:20,474 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 17:54:27,717 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 17:54:27,795 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 17:54:39,335 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 17:54:39,407 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 17:54:49,357 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 17:54:49,424 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 17:55:01,195 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 17:55:01,237 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 17:55:10,448 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 17:55:10,505 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 17:55:10,506 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 17:55:10,506 | INFO | Sampling reference data for feature selection
+2026-04-04 17:55:20,749 | INFO | === Stage 3: Building processed CSV ===
+2026-04-04 17:55:20,753 | INFO | Processing: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:55:22,408 | INFO |   Written 50,000 rows (total so far: 50,000)
+2026-04-04 17:55:24,217 | INFO |   Written 50,000 rows (total so far: 100,000)
+2026-04-04 17:55:26,749 | INFO |   Written 50,000 rows (total so far: 150,000)
+2026-04-04 17:55:28,956 | INFO |   Written 50,000 rows (total so far: 200,000)
+2026-04-04 17:55:31,312 | INFO |   Written 50,000 rows (total so far: 250,000)
+2026-04-04 17:55:33,265 | INFO |   Written 50,000 rows (total so far: 300,000)
+2026-04-04 17:55:36,335 | INFO |   Written 50,000 rows (total so far: 350,000)
+2026-04-04 17:55:38,188 | INFO |   Written 50,000 rows (total so far: 400,000)
+2026-04-04 17:55:40,713 | INFO |   Written 50,000 rows (total so far: 450,000)
+2026-04-04 17:55:42,363 | INFO |   Written 50,000 rows (total so far: 500,000)
+2026-04-04 17:55:43,376 | INFO |   Written 29,481 rows (total so far: 529,481)
+2026-04-04 17:55:43,425 | INFO | Processing: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 17:55:44,901 | INFO |   Written 50,000 rows (total so far: 579,481)
+2026-04-04 17:55:46,635 | INFO |   Written 50,000 rows (total so far: 629,481)
+2026-04-04 17:55:48,134 | INFO |   Written 50,000 rows (total so far: 679,481)
+2026-04-04 17:55:49,758 | INFO |   Written 50,000 rows (total so far: 729,481)
+2026-04-04 17:55:51,969 | INFO |   Written 50,000 rows (total so far: 779,481)
+2026-04-04 17:55:54,447 | INFO |   Written 50,000 rows (total so far: 829,481)
+2026-04-04 17:55:55,970 | INFO |   Written 50,000 rows (total so far: 879,481)
+2026-04-04 17:55:57,641 | INFO |   Written 50,000 rows (total so far: 929,481)
+2026-04-04 17:55:59,030 | INFO |   Written 45,645 rows (total so far: 975,126)
+2026-04-04 17:55:59,108 | INFO | Processing: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 17:56:00,721 | INFO |   Written 50,000 rows (total so far: 1,025,126)
+2026-04-04 17:56:02,930 | INFO |   Written 50,000 rows (total so far: 1,075,126)
+2026-04-04 17:56:04,531 | INFO |   Written 50,000 rows (total so far: 1,125,126)
+2026-04-04 17:56:06,167 | INFO |   Written 50,000 rows (total so far: 1,175,126)
+2026-04-04 17:56:07,878 | INFO |   Written 50,000 rows (total so far: 1,225,126)
+2026-04-04 17:56:09,404 | INFO |   Written 50,000 rows (total so far: 1,275,126)
+2026-04-04 17:56:10,888 | INFO |   Written 50,000 rows (total so far: 1,325,126)
+2026-04-04 17:56:12,361 | INFO |   Written 50,000 rows (total so far: 1,375,126)
+2026-04-04 17:56:14,096 | INFO |   Written 50,000 rows (total so far: 1,425,126)
+2026-04-04 17:56:15,683 | INFO |   Written 50,000 rows (total so far: 1,475,126)
+2026-04-04 17:56:17,063 | INFO |   Written 50,000 rows (total so far: 1,525,126)
+2026-04-04 17:56:18,878 | INFO |   Written 50,000 rows (total so far: 1,575,126)
+2026-04-04 17:56:20,320 | INFO |   Written 50,000 rows (total so far: 1,625,126)
+2026-04-04 17:56:21,499 | INFO |   Written 41,406 rows (total so far: 1,666,532)
+2026-04-04 17:56:21,552 | INFO | Processing: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 17:56:23,247 | INFO |   Written 50,000 rows (total so far: 1,716,532)
+2026-04-04 17:56:24,875 | INFO |   Written 50,000 rows (total so far: 1,766,532)
+2026-04-04 17:56:26,392 | INFO |   Written 50,000 rows (total so far: 1,816,532)
+2026-04-04 17:56:27,042 | INFO |   Written 20,231 rows (total so far: 1,836,763)
+2026-04-04 17:56:27,091 | INFO | Processing: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 17:56:28,822 | INFO |   Written 50,000 rows (total so far: 1,886,763)
+2026-04-04 17:56:30,373 | INFO |   Written 50,000 rows (total so far: 1,936,763)
+2026-04-04 17:56:31,916 | INFO |   Written 50,000 rows (total so far: 1,986,763)
+2026-04-04 17:56:33,634 | INFO |   Written 50,000 rows (total so far: 2,036,763)
+2026-04-04 17:56:35,389 | INFO |   Written 50,000 rows (total so far: 2,086,763)
+2026-04-04 17:56:36,852 | INFO |   Written 38,395 rows (total so far: 2,125,158)
+2026-04-04 17:56:36,914 | INFO | Processing: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 17:56:39,500 | INFO |   Written 50,000 rows (total so far: 2,175,158)
+2026-04-04 17:56:42,412 | INFO |   Written 50,000 rows (total so far: 2,225,158)
+2026-04-04 17:56:44,975 | INFO |   Written 50,000 rows (total so far: 2,275,158)
+2026-04-04 17:56:46,259 | INFO |   Written 40,911 rows (total so far: 2,316,069)
+2026-04-04 17:56:46,312 | INFO | Processing: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 17:56:47,723 | INFO |   Written 50,000 rows (total so far: 2,366,069)
+2026-04-04 17:56:49,167 | INFO |   Written 50,000 rows (total so far: 2,416,069)
+2026-04-04 17:56:50,519 | INFO |   Written 50,000 rows (total so far: 2,466,069)
+2026-04-04 17:56:52,002 | INFO |   Written 50,000 rows (total so far: 2,516,069)
+2026-04-04 17:56:53,361 | INFO |   Written 50,000 rows (total so far: 2,566,069)
+2026-04-04 17:56:54,565 | INFO |   Written 36,096 rows (total so far: 2,602,165)
+2026-04-04 17:56:54,648 | INFO | Processing: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 17:56:56,464 | INFO |   Written 50,000 rows (total so far: 2,652,165)
+2026-04-04 17:56:57,970 | INFO |   Written 50,000 rows (total so far: 2,702,165)
+2026-04-04 17:56:59,336 | INFO |   Written 50,000 rows (total so far: 2,752,165)
+2026-04-04 17:57:01,068 | INFO |   Written 50,000 rows (total so far: 2,802,165)
+2026-04-04 17:57:01,821 | INFO |   Written 25,711 rows (total so far: 2,827,876)
+2026-04-04 17:57:01,873 | INFO | Stage 3 complete: 2,827,876 rows in processed CSV
+2026-04-04 17:57:01,873 | INFO | === Stage 4: Scanning for globally constant columns ===
+2026-04-04 17:57:29,609 | INFO | No constant columns found across combined dataset.
+2026-04-04 17:57:29,610 | INFO | Loading processed dataset: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 18:01:50,267 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 18:01:50,268 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:02:18,886 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 18:02:18,929 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:02:37,457 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 18:02:37,512 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 18:03:05,515 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 18:03:05,551 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 18:03:12,900 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 18:03:12,952 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 18:03:26,857 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 18:03:26,922 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 18:03:37,602 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 18:03:37,692 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 18:03:49,780 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 18:03:49,853 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 18:03:58,628 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 18:03:58,673 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 18:03:58,674 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 18:03:58,674 | INFO | Sampling reference data for feature selection
+2026-04-04 18:04:10,261 | INFO | === Stage 3: Building processed CSV ===
+2026-04-04 18:04:10,267 | INFO | Processing: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:04:11,928 | INFO |   Written 50,000 rows (total so far: 50,000)
+2026-04-04 18:04:13,759 | INFO |   Written 50,000 rows (total so far: 100,000)
+2026-04-04 18:04:15,311 | INFO |   Written 50,000 rows (total so far: 150,000)
+2026-04-04 18:04:16,748 | INFO |   Written 50,000 rows (total so far: 200,000)
+2026-04-04 18:04:18,234 | INFO |   Written 50,000 rows (total so far: 250,000)
+2026-04-04 18:04:20,041 | INFO |   Written 50,000 rows (total so far: 300,000)
+2026-04-04 18:04:21,475 | INFO |   Written 50,000 rows (total so far: 350,000)
+2026-04-04 18:04:22,869 | INFO |   Written 50,000 rows (total so far: 400,000)
+2026-04-04 18:04:24,440 | INFO |   Written 50,000 rows (total so far: 450,000)
+2026-04-04 18:04:25,843 | INFO |   Written 50,000 rows (total so far: 500,000)
+2026-04-04 18:04:26,824 | INFO |   Written 29,481 rows (total so far: 529,481)
+2026-04-04 18:04:26,890 | INFO | Processing: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:04:28,557 | INFO |   Written 50,000 rows (total so far: 579,481)
+2026-04-04 18:04:30,188 | INFO |   Written 50,000 rows (total so far: 629,481)
+2026-04-04 18:04:31,839 | INFO |   Written 50,000 rows (total so far: 679,481)
+2026-04-04 18:04:33,389 | INFO |   Written 50,000 rows (total so far: 729,481)
+2026-04-04 18:04:35,109 | INFO |   Written 50,000 rows (total so far: 779,481)
+2026-04-04 18:04:36,787 | INFO |   Written 50,000 rows (total so far: 829,481)
+2026-04-04 18:04:38,479 | INFO |   Written 50,000 rows (total so far: 879,481)
+2026-04-04 18:04:40,581 | INFO |   Written 50,000 rows (total so far: 929,481)
+2026-04-04 18:04:42,231 | INFO |   Written 45,645 rows (total so far: 975,126)
+2026-04-04 18:04:42,291 | INFO | Processing: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 18:04:43,842 | INFO |   Written 50,000 rows (total so far: 1,025,126)
+2026-04-04 18:04:45,717 | INFO |   Written 50,000 rows (total so far: 1,075,126)
+2026-04-04 18:04:47,685 | INFO |   Written 50,000 rows (total so far: 1,125,126)
+2026-04-04 18:04:49,271 | INFO |   Written 50,000 rows (total so far: 1,175,126)
+2026-04-04 18:04:51,405 | INFO |   Written 50,000 rows (total so far: 1,225,126)
+2026-04-04 18:04:53,381 | INFO |   Written 50,000 rows (total so far: 1,275,126)
+2026-04-04 18:04:55,012 | INFO |   Written 50,000 rows (total so far: 1,325,126)
+2026-04-04 18:04:56,739 | INFO |   Written 50,000 rows (total so far: 1,375,126)
+2026-04-04 18:04:58,380 | INFO |   Written 50,000 rows (total so far: 1,425,126)
+2026-04-04 18:04:59,982 | INFO |   Written 50,000 rows (total so far: 1,475,126)
+2026-04-04 18:05:01,617 | INFO |   Written 50,000 rows (total so far: 1,525,126)
+2026-04-04 18:05:03,887 | INFO |   Written 50,000 rows (total so far: 1,575,126)
+2026-04-04 18:05:05,306 | INFO |   Written 50,000 rows (total so far: 1,625,126)
+2026-04-04 18:05:06,802 | INFO |   Written 41,406 rows (total so far: 1,666,532)
+2026-04-04 18:05:06,876 | INFO | Processing: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 18:05:08,528 | INFO |   Written 50,000 rows (total so far: 1,716,532)
+2026-04-04 18:05:10,150 | INFO |   Written 50,000 rows (total so far: 1,766,532)
+2026-04-04 18:05:11,742 | INFO |   Written 50,000 rows (total so far: 1,816,532)
+2026-04-04 18:05:12,562 | INFO |   Written 20,231 rows (total so far: 1,836,763)
+2026-04-04 18:05:12,613 | INFO | Processing: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 18:05:14,236 | INFO |   Written 50,000 rows (total so far: 1,886,763)
+2026-04-04 18:05:15,757 | INFO |   Written 50,000 rows (total so far: 1,936,763)
+2026-04-04 18:05:17,118 | INFO |   Written 50,000 rows (total so far: 1,986,763)
+2026-04-04 18:05:18,629 | INFO |   Written 50,000 rows (total so far: 2,036,763)
+2026-04-04 18:05:20,154 | INFO |   Written 50,000 rows (total so far: 2,086,763)
+2026-04-04 18:05:21,449 | INFO |   Written 38,395 rows (total so far: 2,125,158)
+2026-04-04 18:05:21,514 | INFO | Processing: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 18:05:23,195 | INFO |   Written 50,000 rows (total so far: 2,175,158)
+2026-04-04 18:05:24,820 | INFO |   Written 50,000 rows (total so far: 2,225,158)
+2026-04-04 18:05:26,599 | INFO |   Written 50,000 rows (total so far: 2,275,158)
+2026-04-04 18:05:28,249 | INFO |   Written 40,911 rows (total so far: 2,316,069)
+2026-04-04 18:05:28,331 | INFO | Processing: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 18:05:30,118 | INFO |   Written 50,000 rows (total so far: 2,366,069)
+2026-04-04 18:05:31,579 | INFO |   Written 50,000 rows (total so far: 2,416,069)
+2026-04-04 18:05:32,906 | INFO |   Written 50,000 rows (total so far: 2,466,069)
+2026-04-04 18:05:34,425 | INFO |   Written 50,000 rows (total so far: 2,516,069)
+2026-04-04 18:05:35,857 | INFO |   Written 50,000 rows (total so far: 2,566,069)
+2026-04-04 18:05:37,091 | INFO |   Written 36,096 rows (total so far: 2,602,165)
+2026-04-04 18:05:37,152 | INFO | Processing: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 18:05:39,049 | INFO |   Written 50,000 rows (total so far: 2,652,165)
+2026-04-04 18:05:41,435 | INFO |   Written 50,000 rows (total so far: 2,702,165)
+2026-04-04 18:05:43,081 | INFO |   Written 50,000 rows (total so far: 2,752,165)
+2026-04-04 18:05:44,882 | INFO |   Written 50,000 rows (total so far: 2,802,165)
+2026-04-04 18:05:45,706 | INFO |   Written 25,711 rows (total so far: 2,827,876)
+2026-04-04 18:05:45,755 | INFO | Stage 3 complete: 2,827,876 rows in processed CSV
+2026-04-04 18:05:45,756 | INFO | === Stage 4: Scanning for globally constant columns ===
+2026-04-04 18:06:19,578 | INFO | No constant columns found across combined dataset.
+2026-04-04 18:06:19,585 | INFO | Loading processed dataset: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 18:19:08,068 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 18:19:08,071 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:19:42,909 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 18:19:42,959 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:20:13,638 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 18:20:13,676 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 18:21:03,186 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 18:21:03,272 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 18:21:15,140 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 18:21:15,245 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 18:21:34,492 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 18:21:34,553 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 18:21:47,614 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 18:21:47,675 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 18:22:04,452 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 18:22:04,506 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 18:22:13,698 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 18:22:13,755 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 18:22:13,755 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 18:22:13,756 | INFO | Sampling reference data for feature selection
+2026-04-04 18:22:23,343 | INFO | === Stage 3: Building processed CSV ===
+2026-04-04 18:22:23,345 | INFO | Processing: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:22:25,079 | INFO |   Written 50,000 rows (total so far: 50,000)
+2026-04-04 18:22:27,507 | INFO |   Written 50,000 rows (total so far: 100,000)
+2026-04-04 18:22:29,262 | INFO |   Written 50,000 rows (total so far: 150,000)
+2026-04-04 18:22:30,705 | INFO |   Written 50,000 rows (total so far: 200,000)
+2026-04-04 18:22:32,405 | INFO |   Written 50,000 rows (total so far: 250,000)
+2026-04-04 18:22:34,840 | INFO |   Written 50,000 rows (total so far: 300,000)
+2026-04-04 18:22:36,949 | INFO |   Written 50,000 rows (total so far: 350,000)
+2026-04-04 18:22:39,212 | INFO |   Written 50,000 rows (total so far: 400,000)
+2026-04-04 18:22:41,317 | INFO |   Written 50,000 rows (total so far: 450,000)
+2026-04-04 18:22:43,398 | INFO |   Written 50,000 rows (total so far: 500,000)
+2026-04-04 18:22:44,603 | INFO |   Written 29,481 rows (total so far: 529,481)
+2026-04-04 18:22:44,663 | INFO | Processing: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:22:46,399 | INFO |   Written 50,000 rows (total so far: 579,481)
+2026-04-04 18:22:48,145 | INFO |   Written 50,000 rows (total so far: 629,481)
+2026-04-04 18:22:50,008 | INFO |   Written 50,000 rows (total so far: 679,481)
+2026-04-04 18:22:51,675 | INFO |   Written 50,000 rows (total so far: 729,481)
+2026-04-04 18:22:54,226 | INFO |   Written 50,000 rows (total so far: 779,481)
+2026-04-04 18:22:56,414 | INFO |   Written 50,000 rows (total so far: 829,481)
+2026-04-04 18:22:58,245 | INFO |   Written 50,000 rows (total so far: 879,481)
+2026-04-04 18:22:59,763 | INFO |   Written 50,000 rows (total so far: 929,481)
+2026-04-04 18:23:01,272 | INFO |   Written 45,645 rows (total so far: 975,126)
+2026-04-04 18:23:01,321 | INFO | Processing: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 18:23:02,934 | INFO |   Written 50,000 rows (total so far: 1,025,126)
+2026-04-04 18:23:05,285 | INFO |   Written 50,000 rows (total so far: 1,075,126)
+2026-04-04 18:23:07,384 | INFO |   Written 50,000 rows (total so far: 1,125,126)
+2026-04-04 18:23:10,163 | INFO |   Written 50,000 rows (total so far: 1,175,126)
+2026-04-04 18:23:12,271 | INFO |   Written 50,000 rows (total so far: 1,225,126)
+2026-04-04 18:23:13,975 | INFO |   Written 50,000 rows (total so far: 1,275,126)
+2026-04-04 18:23:15,925 | INFO |   Written 50,000 rows (total so far: 1,325,126)
+2026-04-04 18:23:17,921 | INFO |   Written 50,000 rows (total so far: 1,375,126)
+2026-04-04 18:23:19,691 | INFO |   Written 50,000 rows (total so far: 1,425,126)
+2026-04-04 18:23:22,015 | INFO |   Written 50,000 rows (total so far: 1,475,126)
+2026-04-04 18:23:23,433 | INFO |   Written 50,000 rows (total so far: 1,525,126)
+2026-04-04 18:23:24,907 | INFO |   Written 50,000 rows (total so far: 1,575,126)
+2026-04-04 18:23:26,655 | INFO |   Written 50,000 rows (total so far: 1,625,126)
+2026-04-04 18:23:28,209 | INFO |   Written 41,406 rows (total so far: 1,666,532)
+2026-04-04 18:23:28,276 | INFO | Processing: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 18:23:30,392 | INFO |   Written 50,000 rows (total so far: 1,716,532)
+2026-04-04 18:23:34,122 | INFO |   Written 50,000 rows (total so far: 1,766,532)
+2026-04-04 18:23:36,666 | INFO |   Written 50,000 rows (total so far: 1,816,532)
+2026-04-04 18:23:37,877 | INFO |   Written 20,231 rows (total so far: 1,836,763)
+2026-04-04 18:23:37,929 | INFO | Processing: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 18:23:39,920 | INFO |   Written 50,000 rows (total so far: 1,886,763)
+2026-04-04 18:23:43,611 | INFO |   Written 50,000 rows (total so far: 1,936,763)
+2026-04-04 18:23:45,258 | INFO |   Written 50,000 rows (total so far: 1,986,763)
+2026-04-04 18:23:47,502 | INFO |   Written 50,000 rows (total so far: 2,036,763)
+2026-04-04 18:23:50,743 | INFO |   Written 50,000 rows (total so far: 2,086,763)
+2026-04-04 18:23:52,690 | INFO |   Written 38,395 rows (total so far: 2,125,158)
+2026-04-04 18:23:52,801 | INFO | Processing: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 18:23:55,683 | INFO |   Written 50,000 rows (total so far: 2,175,158)
+2026-04-04 18:23:57,607 | INFO |   Written 50,000 rows (total so far: 2,225,158)
+2026-04-04 18:23:59,962 | INFO |   Written 50,000 rows (total so far: 2,275,158)
+2026-04-04 18:24:03,014 | INFO |   Written 40,911 rows (total so far: 2,316,069)
+2026-04-04 18:24:03,107 | INFO | Processing: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 18:24:06,702 | INFO |   Written 50,000 rows (total so far: 2,366,069)
+2026-04-04 18:24:08,926 | INFO |   Written 50,000 rows (total so far: 2,416,069)
+2026-04-04 18:24:10,693 | INFO |   Written 50,000 rows (total so far: 2,466,069)
+2026-04-04 18:24:12,206 | INFO |   Written 50,000 rows (total so far: 2,516,069)
+2026-04-04 18:24:13,535 | INFO |   Written 50,000 rows (total so far: 2,566,069)
+2026-04-04 18:24:14,502 | INFO |   Written 36,096 rows (total so far: 2,602,165)
+2026-04-04 18:24:14,566 | INFO | Processing: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 18:24:16,683 | INFO |   Written 50,000 rows (total so far: 2,652,165)
+2026-04-04 18:24:18,156 | INFO |   Written 50,000 rows (total so far: 2,702,165)
+2026-04-04 18:24:19,933 | INFO |   Written 50,000 rows (total so far: 2,752,165)
+2026-04-04 18:24:21,716 | INFO |   Written 50,000 rows (total so far: 2,802,165)
+2026-04-04 18:24:22,589 | INFO |   Written 25,711 rows (total so far: 2,827,876)
+2026-04-04 18:24:22,644 | INFO | Stage 3 complete: 2,827,876 rows in processed CSV
+2026-04-04 18:24:22,646 | INFO | === Stage 4: Scanning for globally constant columns ===
+2026-04-04 18:24:54,628 | INFO | No constant columns found across combined dataset.
+2026-04-04 18:24:54,640 | INFO | Loading processed dataset: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 18:24:54,641 | INFO | DEBUG mode: Chunk-loading a sample to prevent memory crash...
+2026-04-04 18:25:11,777 | INFO | Loaded 100,000 rows | Memory: 46.6 MB
+2026-04-04 18:27:52,444 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 18:27:52,446 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:28:16,779 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 18:28:16,831 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 18:28:36,678 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 18:28:36,718 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 18:29:02,301 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 18:29:02,339 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 18:29:08,273 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 18:29:08,356 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 18:29:18,399 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 18:29:18,452 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 18:29:25,579 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 18:29:25,639 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 18:29:37,706 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 18:29:37,772 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 18:29:47,713 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 18:29:47,770 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 18:29:47,771 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 19:19:01,515 | INFO | === Stage 1: Streaming raw files to interim/ ===
+2026-04-04 19:19:01,516 | INFO | Streaming: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 19:19:19,322 | INFO |   [Monday-WorkingHours.pcap_ISCX.] kept 529,481 rows, removed 437 NaN/Inf rows
+2026-04-04 19:19:19,390 | INFO | Streaming: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 19:19:34,910 | INFO |   [Tuesday-WorkingHours.pcap_ISCX] kept 445,645 rows, removed 264 NaN/Inf rows
+2026-04-04 19:19:34,969 | INFO | Streaming: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 19:19:58,849 | INFO |   [Wednesday-workingHours.pcap_IS] kept 691,406 rows, removed 1,297 NaN/Inf rows
+2026-04-04 19:19:58,891 | INFO | Streaming: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 19:20:04,369 | INFO |   [Thursday-WorkingHours-Morning-] kept 170,231 rows, removed 135 NaN/Inf rows
+2026-04-04 19:20:04,411 | INFO | Streaming: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 19:20:14,024 | INFO |   [Thursday-WorkingHours-Afternoo] kept 288,395 rows, removed 207 NaN/Inf rows
+2026-04-04 19:20:14,082 | INFO | Streaming: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 19:20:20,777 | INFO |   [Friday-WorkingHours-Morning.pc] kept 190,911 rows, removed 122 NaN/Inf rows
+2026-04-04 19:20:20,825 | INFO | Streaming: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 19:20:29,485 | INFO |   [Friday-WorkingHours-Afternoon-] kept 286,096 rows, removed 371 NaN/Inf rows
+2026-04-04 19:20:29,547 | INFO | Streaming: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 19:20:36,836 | INFO |   [Friday-WorkingHours-Afternoon-] kept 225,711 rows, removed 34 NaN/Inf rows
+2026-04-04 19:20:36,878 | INFO | Stage 1 complete: 2,827,876 rows written to interim/
+2026-04-04 19:20:36,879 | INFO | === Stage 2: Fitting feature selector on Monday ===
+2026-04-04 19:20:36,880 | INFO | Sampling reference data for feature selection
+2026-04-04 19:20:45,073 | INFO | === Stage 3: Building processed CSV ===
+2026-04-04 19:20:45,075 | INFO | Processing: Monday-WorkingHours.pcap_ISCX.csv
+2026-04-04 19:20:46,326 | INFO |   Written 50,000 rows (total so far: 50,000)
+2026-04-04 19:20:47,695 | INFO |   Written 50,000 rows (total so far: 100,000)
+2026-04-04 19:20:48,849 | INFO |   Written 50,000 rows (total so far: 150,000)
+2026-04-04 19:20:50,262 | INFO |   Written 50,000 rows (total so far: 200,000)
+2026-04-04 19:20:51,854 | INFO |   Written 50,000 rows (total so far: 250,000)
+2026-04-04 19:20:53,355 | INFO |   Written 50,000 rows (total so far: 300,000)
+2026-04-04 19:20:54,565 | INFO |   Written 50,000 rows (total so far: 350,000)
+2026-04-04 19:20:55,788 | INFO |   Written 50,000 rows (total so far: 400,000)
+2026-04-04 19:20:57,077 | INFO |   Written 50,000 rows (total so far: 450,000)
+2026-04-04 19:20:58,330 | INFO |   Written 50,000 rows (total so far: 500,000)
+2026-04-04 19:20:59,202 | INFO |   Written 29,481 rows (total so far: 529,481)
+2026-04-04 19:20:59,260 | INFO | Processing: Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-04 19:21:00,790 | INFO |   Written 50,000 rows (total so far: 579,481)
+2026-04-04 19:21:02,449 | INFO |   Written 50,000 rows (total so far: 629,481)
+2026-04-04 19:21:03,868 | INFO |   Written 50,000 rows (total so far: 679,481)
+2026-04-04 19:21:05,270 | INFO |   Written 50,000 rows (total so far: 729,481)
+2026-04-04 19:21:06,890 | INFO |   Written 50,000 rows (total so far: 779,481)
+2026-04-04 19:21:08,025 | INFO |   Written 50,000 rows (total so far: 829,481)
+2026-04-04 19:21:09,273 | INFO |   Written 50,000 rows (total so far: 879,481)
+2026-04-04 19:21:10,505 | INFO |   Written 50,000 rows (total so far: 929,481)
+2026-04-04 19:21:11,499 | INFO |   Written 45,645 rows (total so far: 975,126)
+2026-04-04 19:21:11,563 | INFO | Processing: Wednesday-workingHours.pcap_ISCX.csv
+2026-04-04 19:21:12,961 | INFO |   Written 50,000 rows (total so far: 1,025,126)
+2026-04-04 19:21:14,458 | INFO |   Written 50,000 rows (total so far: 1,075,126)
+2026-04-04 19:21:15,736 | INFO |   Written 50,000 rows (total so far: 1,125,126)
+2026-04-04 19:21:17,323 | INFO |   Written 50,000 rows (total so far: 1,175,126)
+2026-04-04 19:21:18,572 | INFO |   Written 50,000 rows (total so far: 1,225,126)
+2026-04-04 19:21:19,974 | INFO |   Written 50,000 rows (total so far: 1,275,126)
+2026-04-04 19:21:21,321 | INFO |   Written 50,000 rows (total so far: 1,325,126)
+2026-04-04 19:21:22,736 | INFO |   Written 50,000 rows (total so far: 1,375,126)
+2026-04-04 19:21:23,964 | INFO |   Written 50,000 rows (total so far: 1,425,126)
+2026-04-04 19:21:25,444 | INFO |   Written 50,000 rows (total so far: 1,475,126)
+2026-04-04 19:21:26,773 | INFO |   Written 50,000 rows (total so far: 1,525,126)
+2026-04-04 19:21:27,864 | INFO |   Written 50,000 rows (total so far: 1,575,126)
+2026-04-04 19:21:29,032 | INFO |   Written 50,000 rows (total so far: 1,625,126)
+2026-04-04 19:21:30,231 | INFO |   Written 41,406 rows (total so far: 1,666,532)
+2026-04-04 19:21:30,290 | INFO | Processing: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-04 19:21:31,570 | INFO |   Written 50,000 rows (total so far: 1,716,532)
+2026-04-04 19:21:32,843 | INFO |   Written 50,000 rows (total so far: 1,766,532)
+2026-04-04 19:21:34,024 | INFO |   Written 50,000 rows (total so far: 1,816,532)
+2026-04-04 19:21:34,596 | INFO |   Written 20,231 rows (total so far: 1,836,763)
+2026-04-04 19:21:34,631 | INFO | Processing: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-04 19:21:36,007 | INFO |   Written 50,000 rows (total so far: 1,886,763)
+2026-04-04 19:21:37,244 | INFO |   Written 50,000 rows (total so far: 1,936,763)
+2026-04-04 19:21:38,412 | INFO |   Written 50,000 rows (total so far: 1,986,763)
+2026-04-04 19:21:39,582 | INFO |   Written 50,000 rows (total so far: 2,036,763)
+2026-04-04 19:21:41,068 | INFO |   Written 50,000 rows (total so far: 2,086,763)
+2026-04-04 19:21:42,046 | INFO |   Written 38,395 rows (total so far: 2,125,158)
+2026-04-04 19:21:42,097 | INFO | Processing: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-04 19:21:43,510 | INFO |   Written 50,000 rows (total so far: 2,175,158)
+2026-04-04 19:21:44,749 | INFO |   Written 50,000 rows (total so far: 2,225,158)
+2026-04-04 19:21:46,098 | INFO |   Written 50,000 rows (total so far: 2,275,158)
+2026-04-04 19:21:47,106 | INFO |   Written 40,911 rows (total so far: 2,316,069)
+2026-04-04 19:21:47,154 | INFO | Processing: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-04 19:21:48,492 | INFO |   Written 50,000 rows (total so far: 2,366,069)
+2026-04-04 19:21:49,693 | INFO |   Written 50,000 rows (total so far: 2,416,069)
+2026-04-04 19:21:50,840 | INFO |   Written 50,000 rows (total so far: 2,466,069)
+2026-04-04 19:21:52,188 | INFO |   Written 50,000 rows (total so far: 2,516,069)
+2026-04-04 19:21:53,236 | INFO |   Written 50,000 rows (total so far: 2,566,069)
+2026-04-04 19:21:54,184 | INFO |   Written 36,096 rows (total so far: 2,602,165)
+2026-04-04 19:21:54,229 | INFO | Processing: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-04 19:21:55,605 | INFO |   Written 50,000 rows (total so far: 2,652,165)
+2026-04-04 19:21:56,973 | INFO |   Written 50,000 rows (total so far: 2,702,165)
+2026-04-04 19:21:58,353 | INFO |   Written 50,000 rows (total so far: 2,752,165)
+2026-04-04 19:21:59,617 | INFO |   Written 50,000 rows (total so far: 2,802,165)
+2026-04-04 19:22:00,242 | INFO |   Written 25,711 rows (total so far: 2,827,876)
+2026-04-04 19:22:00,290 | INFO | Stage 3 complete: 2,827,876 rows in processed CSV
+2026-04-04 19:22:00,290 | INFO | === Stage 4: Scanning for globally constant columns ===
+2026-04-04 19:22:25,814 | INFO | No constant columns found across combined dataset.
+2026-04-04 19:22:25,814 | INFO | Loading processed dataset: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 19:22:25,816 | INFO | DEBUG mode: Chunk-loading a sample to prevent memory crash...
+2026-04-04 19:22:41,610 | INFO | Loaded 100,000 rows | Memory: 47.4 MB
+2026-04-04 19:22:41,983 | INFO | Scaler saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\scalers\scaler_v1.pkl

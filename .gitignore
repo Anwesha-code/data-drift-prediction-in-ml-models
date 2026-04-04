@@ -3,10 +3,12 @@ data/raw/
 data/processed/
 data/interim/
 
-artifacts/
-logs/
+AshDrift/
+
 
 __pycache__/
 *.pyc
+
+*.csv
 
 .ipynb_checkpoints/
