@@ -1,0 +1,50 @@
+[
+    {
+        "batch": "Wednesday-workingHours.pcap_ISCX.csv",
+        "average_accuracy": 0.6348,
+        "threshold": 0.8,
+        "per_model_accuracy": {
+            "random_forest": 0.6348,
+            "xgboost": 0.6348,
+            "logistic": 0.6348,
+            "decision_tree": 0.6348,
+            "svm": 0.6348
+        },
+        "label_kl_divergence": 7.752125,
+        "label_js_divergence": 0.147126,
+        "predicted_accuracy": null,
+        "alert": "DRIFT DETECTED \u2014 avg accuracy below threshold"
+    },
+    {
+        "batch": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+        "average_accuracy": 0.4452,
+        "threshold": 0.8,
+        "per_model_accuracy": {
+            "random_forest": 0.4452,
+            "xgboost": 0.4452,
+            "logistic": 0.4452,
+            "decision_tree": 0.4452,
+            "svm": 0.4452
+        },
+        "label_kl_divergence": 12.08758,
+        "label_js_divergence": 0.246916,
+        "predicted_accuracy": null,
+        "alert": "DRIFT DETECTED \u2014 avg accuracy below threshold"
+    },
+    {
+        "batch": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+        "average_accuracy": 0.4333,
+        "threshold": 0.8,
+        "per_model_accuracy": {
+            "random_forest": 0.4333,
+            "xgboost": 0.4333,
+            "logistic": 0.4333,
+            "decision_tree": 0.4333,
+            "svm": 0.4333
+        },
+        "label_kl_divergence": 12.365228,
+        "label_js_divergence": 0.253996,
+        "predicted_accuracy": null,
+        "alert": "DRIFT DETECTED \u2014 avg accuracy below threshold"
+    }
+]

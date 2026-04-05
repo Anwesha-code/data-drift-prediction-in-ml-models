@@ -1,0 +1,47 @@
+2026-04-04 19:25:32,634 | INFO | === Drift Experiment Started ===
+2026-04-04 19:25:32,635 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 19:25:59,372 | INFO | Total rows loaded: 2827876
+2026-04-04 19:29:44,294 | INFO | === Drift Experiment Started ===
+2026-04-04 19:29:44,299 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 19:29:44,299 | INFO | DEBUG mode: Chunk-loading to prevent memory crash...
+2026-04-04 19:30:06,634 | INFO | Total rows loaded: 282788
+2026-04-04 19:30:06,916 | INFO | Total batches found: 8
+2026-04-04 19:30:06,918 | INFO | 
+--- Label Distribution per Batch ---
+2026-04-04 19:30:06,958 | INFO | 
+--- Fixed Reference Drift (Monday vs all batches) ---
+2026-04-04 19:30:15,147 | INFO | 
+--- Multi-Model Cross-Dataset Evaluation ---
+Models: ['random_forest', 'xgboost', 'logistic', 'decision_tree', 'svm']
+2026-04-04 21:13:03,698 | INFO | === Drift Experiment Started ===
+2026-04-04 21:13:03,700 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 21:13:03,700 | INFO | DEBUG mode: Chunk-loading to prevent memory crash...
+2026-04-04 21:13:25,251 | INFO | Total rows loaded: 282788
+2026-04-04 21:13:25,526 | INFO | Total batches found: 8
+2026-04-04 21:13:25,527 | INFO | 
+--- Label Distribution per Batch ---
+2026-04-04 21:13:25,705 | INFO | 
+--- Fixed Reference Drift (Monday vs all batches) ---
+2026-04-04 21:13:35,364 | INFO | 
+--- Multi-Model Cross-Dataset Evaluation ---
+Models: ['random_forest', 'xgboost', 'logistic', 'decision_tree', 'svm']
+2026-04-04 21:13:42,804 | INFO | 
+--- Checking Drift Alerts ---
+2026-04-04 21:13:42,825 | INFO | 
+=== CROSS-DATASET EVALUATION SUMMARY ===
+2026-04-04 21:13:42,827 | INFO | Batch                                               random_forest     xgboost    logisticdecision_tree         svm
+2026-04-04 21:13:42,829 | INFO | ------------------------------------------------------------------------------------------------------------------
+2026-04-04 21:13:42,830 | INFO | Monday-WorkingHours.pcap_ISCX.csv                            1.0         1.0         1.0         1.0         1.0
+2026-04-04 21:13:42,832 | INFO | Tuesday-WorkingHours.pcap_ISCX.csv                        0.9689      0.9689      0.9689      0.9689      0.9689
+2026-04-04 21:13:42,839 | INFO | Wednesday-workingHours.pcap_ISCX.csv                      0.6348      0.6348      0.6348      0.6348      0.6348
+2026-04-04 21:13:42,841 | INFO | Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv      0.9882      0.9882      0.9882      0.9882      0.9882
+2026-04-04 21:13:42,841 | INFO | Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv      0.9999      0.9999      0.9999      0.9999      0.9999
+2026-04-04 21:13:42,841 | INFO | Friday-WorkingHours-Morning.pcap_ISCX.csv                 0.9896      0.9896      0.9896      0.9896      0.9896
+2026-04-04 21:13:42,842 | INFO | Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv      0.4452      0.4452      0.4452      0.4452      0.4452
+2026-04-04 21:13:42,842 | INFO | Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv          0.4333      0.4333      0.4333      0.4333      0.4333
+2026-04-04 21:13:42,842 | INFO | 
+Drift scores         -> artifacts/reports/drift_scores.json
+2026-04-04 21:13:42,843 | INFO | Rolling drift        -> artifacts/reports/rolling_drift_scores.json
+2026-04-04 21:13:42,844 | INFO | Cross-eval accuracy  -> artifacts/reports/cross_eval_accuracy.json
+2026-04-04 21:13:42,845 | INFO | Drift alerts         -> artifacts/reports/drift_alerts.json  (3 alerts)
+2026-04-04 21:13:42,846 | INFO | === Drift Experiment Complete ===

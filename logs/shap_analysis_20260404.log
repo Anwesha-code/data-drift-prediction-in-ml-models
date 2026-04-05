@@ -1,0 +1,82 @@
+2026-04-04 21:18:39,347 | INFO | === SHAP Analysis Started ===
+2026-04-04 21:18:39,353 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 21:35:20,223 | INFO | === SHAP Analysis Started ===
+2026-04-04 21:35:20,227 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 21:36:32,362 | INFO | === SHAP Analysis Started ===
+2026-04-04 21:36:32,364 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 21:36:32,365 | INFO | DEBUG mode: Chunk-loading to prevent memory crash...
+2026-04-04 21:36:50,130 | INFO | Reference : Monday-WorkingHours.pcap_ISCX.csv (52939 rows)
+2026-04-04 21:36:50,133 | INFO | Drifted   : Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv (22591 rows)
+2026-04-04 21:36:50,134 | ERROR | SHAP not installed. Run: pip install shap
+2026-04-04 21:36:50,135 | ERROR | SHAP not installed. Run: pip install shap
+2026-04-04 21:36:50,136 | ERROR | SHAP not installed. Run: pip install shap
+2026-04-04 21:36:50,136 | ERROR | SHAP not installed. Run: pip install shap
+2026-04-04 21:36:50,137 | ERROR | SHAP not installed. Run: pip install shap
+2026-04-04 21:36:50,137 | INFO | 
+=== SHAP Analysis Complete ===
+2026-04-04 21:36:50,137 | INFO | All outputs in: D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports
+2026-04-04 21:40:03,626 | INFO | === SHAP Analysis Started ===
+2026-04-04 21:40:03,634 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 21:40:03,635 | INFO | DEBUG mode: Chunk-loading to prevent memory crash...
+2026-04-04 21:40:35,274 | INFO | Reference : Monday-WorkingHours.pcap_ISCX.csv (52939 rows)
+2026-04-04 21:40:35,300 | INFO | Drifted   : Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv (22591 rows)
+2026-04-04 21:40:44,290 | INFO | 
+--- SHAP: random_forest ---
+2026-04-04 22:04:13,266 | INFO | === SHAP Analysis Started ===
+2026-04-04 22:04:13,272 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-04 22:04:13,272 | INFO | DEBUG mode: Chunk-loading to prevent memory crash...
+2026-04-04 22:04:40,028 | INFO | Reference : Monday-WorkingHours.pcap_ISCX.csv (52939 rows)
+2026-04-04 22:04:40,038 | INFO | Drifted   : Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv (22591 rows)
+2026-04-04 22:04:49,740 | INFO | 
+--- SHAP: random_forest ---
+2026-04-04 22:05:20,237 | INFO | Plot saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_comparison_random_forest.png
+2026-04-04 22:05:20,240 | INFO | JSON saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_values_random_forest.json
+2026-04-04 22:05:20,240 | INFO |   Top 5 features — reference vs drifted importance:
+2026-04-04 22:05:20,242 | INFO |     Destination Port                       ref=0.0265  drift=0.0481  delta=+0.0216
+2026-04-04 22:05:20,242 | INFO |     Fwd Packet Length Max                  ref=0.0206  drift=0.0444  delta=+0.0238
+2026-04-04 22:05:20,242 | INFO |     Packet Length Mean                     ref=0.0154  drift=0.0315  delta=+0.0161
+2026-04-04 22:05:20,242 | INFO |     Bwd Packet Length Std                  ref=0.0151  drift=0.0709  delta=+0.0558
+2026-04-04 22:05:20,242 | INFO |     Bwd Packet Length Mean                 ref=0.0132  drift=0.0556  delta=+0.0424
+2026-04-04 22:05:20,242 | INFO | 
+--- SHAP: xgboost ---
+2026-04-04 22:05:21,300 | INFO | Plot saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_comparison_xgboost.png
+2026-04-04 22:05:21,302 | INFO | JSON saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_values_xgboost.json
+2026-04-04 22:05:21,302 | INFO |   Top 5 features — reference vs drifted importance:
+2026-04-04 22:05:21,302 | INFO |     Init_Win_bytes_forward                 ref=1.5721  drift=0.7364  delta=-0.8358
+2026-04-04 22:05:21,302 | INFO |     Destination Port                       ref=1.2514  drift=1.4743  delta=+0.2229
+2026-04-04 22:05:21,304 | INFO |     Fwd Packet Length Max                  ref=0.9991  drift=0.9372  delta=-0.0619
+2026-04-04 22:05:21,305 | INFO |     Bwd Packet Length Min                  ref=0.7446  drift=0.3660  delta=-0.3786
+2026-04-04 22:05:21,305 | INFO |     Init_Win_bytes_backward                ref=0.6041  drift=0.5600  delta=-0.0442
+2026-04-04 22:05:21,306 | INFO | 
+--- SHAP: decision_tree ---
+2026-04-04 22:05:22,115 | INFO | Plot saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_comparison_decision_tree.png
+2026-04-04 22:05:22,119 | INFO | JSON saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_values_decision_tree.json
+2026-04-04 22:05:22,120 | INFO |   Top 5 features — reference vs drifted importance:
+2026-04-04 22:05:22,121 | INFO |     Total Length of Fwd Packets            ref=0.0624  drift=0.0443  delta=-0.0181
+2026-04-04 22:05:22,121 | INFO |     Bwd Packet Length Std                  ref=0.0579  drift=0.2978  delta=+0.2399
+2026-04-04 22:05:22,122 | INFO |     Destination Port                       ref=0.0536  drift=0.0526  delta=-0.0011
+2026-04-04 22:05:22,123 | INFO |     Flow Bytes/s                           ref=0.0349  drift=0.0735  delta=+0.0386
+2026-04-04 22:05:22,124 | INFO |     PSH Flag Count                         ref=0.0289  drift=0.0162  delta=-0.0127
+2026-04-04 22:05:22,126 | INFO | 
+--- SHAP: logistic ---
+2026-04-04 22:05:23,042 | INFO | Plot saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_comparison_logistic.png
+2026-04-04 22:05:23,044 | INFO | JSON saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_values_logistic.json
+2026-04-04 22:05:23,045 | INFO |   Top 5 features — reference vs drifted importance:
+2026-04-04 22:05:23,045 | INFO |     Bwd Packet Length Min                  ref=2.8267  drift=2.4952  delta=-0.3314
+2026-04-04 22:05:23,045 | INFO |     Fwd Packet Length Std                  ref=1.9002  drift=5.5785  delta=+3.6783
+2026-04-04 22:05:23,046 | INFO |     PSH Flag Count                         ref=1.5675  drift=1.7036  delta=+0.1361
+2026-04-04 22:05:23,047 | INFO |     min_seg_size_forward                   ref=1.2170  drift=1.2017  delta=-0.0153
+2026-04-04 22:05:23,047 | INFO |     ACK Flag Count                         ref=1.1958  drift=1.4976  delta=+0.3019
+2026-04-04 22:05:23,051 | INFO | 
+--- SHAP: svm ---
+2026-04-04 22:05:23,848 | INFO | Plot saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_comparison_svm.png
+2026-04-04 22:05:23,852 | INFO | JSON saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports\shap_values_svm.json
+2026-04-04 22:05:23,853 | INFO |   Top 5 features — reference vs drifted importance:
+2026-04-04 22:05:23,853 | INFO |     Max Packet Length                      ref=1.4487  drift=8.3124  delta=+6.8637
+2026-04-04 22:05:23,854 | INFO |     Bwd Packet Length Max                  ref=1.0757  drift=5.6681  delta=+4.5924
+2026-04-04 22:05:23,854 | INFO |     PSH Flag Count                         ref=0.7133  drift=0.7752  delta=+0.0619
+2026-04-04 22:05:23,855 | INFO |     Fwd Packet Length Std                  ref=0.6250  drift=1.8348  delta=+1.2098
+2026-04-04 22:05:23,856 | INFO |     ACK Flag Count                         ref=0.5740  drift=0.7189  delta=+0.1449
+2026-04-04 22:05:23,856 | INFO | 
+=== SHAP Analysis Complete ===
+2026-04-04 22:05:23,857 | INFO | All outputs in: D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\reports

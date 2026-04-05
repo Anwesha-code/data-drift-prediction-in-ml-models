@@ -1,0 +1,8 @@
+Date: 2026-04-02 22:01
+Model: drift_predictor_gradient_boosting
+Task: Drift prediction (accuracy regression)
+Input features: ['kl_divergence', 'js_divergence', 'mean_feature_js']
+Samples: 7
+CV method: Leave-one-out
+LOO-CV MAE: 0.067
+LOO-CV R2: 0.8353

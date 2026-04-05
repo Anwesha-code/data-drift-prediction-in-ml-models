@@ -1,0 +1,100 @@
+[
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Tuesday-WorkingHours.pcap_ISCX.csv",
+        "label_kl_divergence": 0.03153,
+        "label_js_divergence": 0.010879,
+        "mean_feature_js": 0.000469,
+        "top_drifted_features": {
+            "Destination Port": 0.0053,
+            "Init_Win_bytes_forward": 0.002951,
+            "Bwd IAT Total": 0.001465,
+            "Flow IAT Max": 0.001433,
+            "Packet Length Mean": 0.001413
+        }
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Wednesday-workingHours.pcap_ISCX.csv",
+        "label_kl_divergence": 0.452673,
+        "label_js_divergence": 0.146605,
+        "mean_feature_js": 0.01829,
+        "top_drifted_features": {
+            "Packet Length Variance": 0.082506,
+            "Bwd Packet Length Max": 0.077619,
+            "Max Packet Length": 0.077202,
+            "Flow IAT Max": 0.070043,
+            "Fwd IAT Std": 0.069035
+        }
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+        "label_kl_divergence": 0.012889,
+        "label_js_divergence": 0.004459,
+        "mean_feature_js": 0.001146,
+        "top_drifted_features": {
+            "Init_Win_bytes_backward": 0.011995,
+            "Init_Win_bytes_forward": 0.011537,
+            "Destination Port": 0.009308,
+            "Bwd IAT Max": 0.002744,
+            "Flow IAT Max": 0.002243
+        }
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+        "label_kl_divergence": 0.000125,
+        "label_js_divergence": 4.3e-05,
+        "mean_feature_js": 0.002338,
+        "top_drifted_features": {
+            "Destination Port": 0.034874,
+            "PSH Flag Count": 0.014202,
+            "Init_Win_bytes_backward": 0.011954,
+            "Init_Win_bytes_forward": 0.011503,
+            "ACK Flag Count": 0.003795
+        }
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+        "label_kl_divergence": 0.010298,
+        "label_js_divergence": 0.003564,
+        "mean_feature_js": 0.001176,
+        "top_drifted_features": {
+            "Destination Port": 0.021189,
+            "Init_Win_bytes_backward": 0.00942,
+            "Init_Win_bytes_forward": 0.007939,
+            "Bwd IAT Max": 0.001784,
+            "Bwd Packet Length Min": 0.001493
+        }
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+        "label_kl_divergence": 0.809844,
+        "label_js_divergence": 0.247077,
+        "mean_feature_js": 0.008873,
+        "top_drifted_features": {
+            "Destination Port": 0.096114,
+            "PSH Flag Count": 0.088414,
+            "Init_Win_bytes_forward": 0.062261,
+            "ACK Flag Count": 0.025366,
+            "Init_Win_bytes_backward": 0.014419
+        }
+    },
+    {
+        "reference_batch": "Monday-WorkingHours.pcap_ISCX.csv",
+        "comparison_batch": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+        "label_kl_divergence": 0.837497,
+        "label_js_divergence": 0.254282,
+        "mean_feature_js": 0.024236,
+        "top_drifted_features": {
+            "Packet Length Variance": 0.165715,
+            "Max Packet Length": 0.160422,
+            "Packet Length Mean": 0.151248,
+            "Bwd Packet Length Max": 0.140531,
+            "Flow Duration": 0.063163
+        }
+    }
+]

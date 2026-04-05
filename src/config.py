@@ -48,11 +48,49 @@ SAVE_MODEL          = True
 SAVE_SCALER         = True
 
 # ─── Debug ────────────────────────────────────────────────
-DEBUG = False
+DEBUG = True
 
 # ─── Feature Engineering ─────────────────────────────────
 LOW_VARIANCE_THRESHOLD = 0.0
 CORRELATION_THRESHOLD = 0.95
 
-# ─── Models to run ───────────────────────────────────────
-MODELS_TO_RUN = ["random_forest", "logistic", "xgboost"]
+# ── Baseline training — models to train in main.py ───────────────────────────
+# SVM is placed last — it is the slowest on 2.8M records (~5-10 min).
+MODELS_TO_RUN = [
+    "random_forest",
+    "xgboost",
+    "logistic",
+    "decision_tree",
+    "svm",
+]
+
+# ── Cross-dataset evaluation — models to use in testdrift.py ─────────────────
+# All five models are compared for drift sensitivity.
+# SVM uses scaled data (already handled in cross_dataset_evaluation).
+CROSS_EVAL_MODELS = [
+    "random_forest",
+    "xgboost",
+    "logistic",
+    "decision_tree",
+    "svm",
+]
+
+# ── Drift metrics ─────────────────────────────────────────────────────────────
+# Toggle which divergence metrics are computed in compute_drift().
+COMPUTE_KL          = True
+COMPUTE_JS          = True
+COMPUTE_WASSERSTEIN = True   # Wasserstein distance (Earth Mover's Distance)
+
+# ── Rolling reference window ──────────────────────────────────────────────────
+# If True, compute_rolling_drift() compares each batch against the
+# immediately preceding batch instead of all batches against Monday.
+USE_ROLLING_REFERENCE = True
+
+# ── Drift alert ───────────────────────────────────────────────────────────────
+# If the drift predictor's predicted accuracy falls below this threshold,
+# a drift alert is written to artifacts/reports/drift_alerts.json.
+DRIFT_ALERT_THRESHOLD = 0.80
+
+# ── SHAP ──────────────────────────────────────────────────────────────────────
+SHAP_SAMPLE_SIZE    = 500    # rows sampled from drifted batch for SHAP
+SHAP_TOP_N_FEATURES = 15     # number of top features to show in SHAP plot

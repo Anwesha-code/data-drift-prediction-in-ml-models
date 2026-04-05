@@ -1,0 +1,38 @@
+2026-04-04 22:11:52,323 | INFO | === Drift Predictor Training Started ===
+2026-04-04 22:11:52,328 | INFO | Meta-dataset built: 7 samples
+2026-04-04 22:11:52,329 | INFO |   Tuesday-WorkingHours.pcap_ISCX.csv       | KL=0.5770 | JS=0.0109 | Acc=0.9689
+2026-04-04 22:11:52,329 | INFO |   Wednesday-workingHours.pcap_ISCX.csv     | KL=7.7521 | JS=0.1471 | Acc=0.6348
+2026-04-04 22:11:52,330 | INFO |   Thursday-WorkingHours-Morning-WebAttacks | KL=0.2071 | JS=0.0041 | Acc=0.9882
+2026-04-04 22:11:52,330 | INFO |   Thursday-WorkingHours-Afternoon-Infilter | KL=0.0018 | JS=0.0000 | Acc=0.9999
+2026-04-04 22:11:52,331 | INFO |   Friday-WorkingHours-Morning.pcap_ISCX.cs | KL=0.1821 | JS=0.0036 | Acc=0.9896
+2026-04-04 22:11:52,332 | INFO |   Friday-WorkingHours-Afternoon-PortScan.p | KL=12.0876 | JS=0.2469 | Acc=0.4452
+2026-04-04 22:11:52,333 | INFO |   Friday-WorkingHours-Afternoon-DDos.pcap_ | KL=12.3652 | JS=0.2540 | Acc=0.4333
+2026-04-04 22:11:52,375 | INFO | 
+[linear_regression] LOO-CV MAE=0.0143 | R2=0.9924
+2026-04-04 22:11:52,377 | INFO |   actual=0.9689  predicted=0.9715  error=0.0026
+2026-04-04 22:11:52,378 | INFO |   actual=0.6348  predicted=0.5905  error=0.0443
+2026-04-04 22:11:52,379 | INFO |   actual=0.9882  predicted=0.9885  error=0.0003
+2026-04-04 22:11:52,379 | INFO |   actual=0.9999  predicted=0.9972  error=0.0027
+2026-04-04 22:11:52,380 | INFO |   actual=0.9896  predicted=0.9896  error=0.0000
+2026-04-04 22:11:52,380 | INFO |   actual=0.4452  predicted=0.4210  error=0.0242
+2026-04-04 22:11:52,381 | INFO |   actual=0.4333  predicted=0.4591  error=0.0258
+2026-04-04 22:11:52,387 | INFO | Saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\drift_predictor_linear_regression.pkl
+2026-04-04 22:11:52,498 | INFO | 
+[gradient_boosting] LOO-CV MAE=0.0694 | R2=0.8279
+2026-04-04 22:11:52,498 | INFO |   actual=0.9689  predicted=0.9871  error=0.0182
+2026-04-04 22:11:52,498 | INFO |   actual=0.6348  predicted=0.4439  error=0.1909
+2026-04-04 22:11:52,498 | INFO |   actual=0.9882  predicted=0.9884  error=0.0002
+2026-04-04 22:11:52,499 | INFO |   actual=0.9999  predicted=0.9880  error=0.0119
+2026-04-04 22:11:52,499 | INFO |   actual=0.9896  predicted=0.9870  error=0.0026
+2026-04-04 22:11:52,499 | INFO |   actual=0.4452  predicted=0.6064  error=0.1612
+2026-04-04 22:11:52,499 | INFO |   actual=0.4333  predicted=0.5342  error=0.1009
+2026-04-04 22:11:52,517 | INFO | Saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\model\drift_predictor_gradient_boosting.pkl
+2026-04-04 22:11:52,519 | INFO | 
+=== Final Comparison ===
+2026-04-04 22:11:52,519 | INFO | linear_regression              MAE=0.0143  R2=0.9924
+2026-04-04 22:11:52,520 | INFO | gradient_boosting              MAE=0.0694  R2=0.8279
+2026-04-04 22:11:52,520 | INFO | 
+=== Example Prediction ===
+2026-04-04 22:11:52,593 | INFO | For KL=0.8, JS=0.25, mean_fjs=0.02 -> predicted accuracy = 1.0000
+2026-04-04 22:11:52,594 | INFO | For KL=0.01, JS=0.004, mean_fjs=0.001 -> predicted accuracy = 1.0000
+2026-04-04 22:11:52,594 | INFO | === Drift Predictor Complete ===

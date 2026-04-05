@@ -1,0 +1,19 @@
+2026-04-02 16:20:59,266 | INFO | Loading (chunked): Monday-WorkingHours.pcap_ISCX.csv
+2026-04-02 16:21:18,738 | INFO | Loading (chunked): Tuesday-WorkingHours.pcap_ISCX.csv
+2026-04-02 16:21:27,361 | INFO | Loading (chunked): Wednesday-workingHours.pcap_ISCX.csv
+2026-04-02 16:21:47,947 | INFO | Loading (chunked): Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2026-04-02 16:21:52,655 | INFO | Loading (chunked): Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2026-04-02 16:21:58,771 | INFO | Loading (chunked): Friday-WorkingHours-Morning.pcap_ISCX.csv
+2026-04-02 16:22:05,344 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2026-04-02 16:22:11,109 | INFO | Loading (chunked): Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2026-04-02 16:22:50,760 | INFO | Total records loaded: 2830743
+2026-04-02 16:24:01,233 | INFO | Removed 2867 rows with NaN/Inf values.
+2026-04-02 16:24:01,280 | INFO | Constant columns removed: 8
+2026-04-02 16:24:03,694 | INFO | Dropped columns: ['Fwd Header Length.1']
+2026-04-02 16:24:06,205 | INFO | Label distribution:
+Label
+0    0.803189
+1    0.196811
+Name: proportion, dtype: float64
+2026-04-02 16:28:20,639 | INFO | Processed dataset saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-02 16:29:37,056 | INFO | Scaler saved -> D:\MUJ\Projects\data-drift-prediction-in-ml-models\artifacts\scalers\scaler_v1.pkl

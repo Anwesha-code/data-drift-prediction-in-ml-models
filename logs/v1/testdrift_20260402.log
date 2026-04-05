@@ -1,0 +1,26 @@
+2026-04-02 16:56:31,886 | INFO | === Drift Experiment Started ===
+2026-04-02 16:56:31,887 | INFO | Loading: D:\MUJ\Projects\data-drift-prediction-in-ml-models\data\processed\processed_data_v1.csv
+2026-04-02 16:57:12,049 | INFO | Total rows loaded: 2827876
+2026-04-02 16:57:27,208 | INFO | Total batches found: 8
+2026-04-02 16:57:27,208 | INFO | 
+--- Label Distribution per Batch ---
+2026-04-02 16:57:27,484 | INFO | 
+--- Computing Drift Scores ---
+2026-04-02 16:57:40,082 | INFO | 
+--- Cross-Dataset Evaluation (Core Research Experiment) ---
+2026-04-02 16:57:55,520 | INFO | 
+=== SUMMARY ===
+2026-04-02 16:57:55,521 | INFO | Batch                                                     Accuracy Note
+2026-04-02 16:57:55,522 | INFO | -------------------------------------------------------------------------------------
+2026-04-02 16:57:55,522 | INFO | Monday-WorkingHours.pcap_ISCX.csv                           1.0000  same distribution (upper bound)
+2026-04-02 16:57:55,523 | INFO | Tuesday-WorkingHours.pcap_ISCX.csv                          0.9690  cross-dataset (drift scenario)
+2026-04-02 16:57:55,523 | INFO | Wednesday-workingHours.pcap_ISCX.csv                        0.6359  cross-dataset (drift scenario)
+2026-04-02 16:57:55,524 | INFO | Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv      0.9872  cross-dataset (drift scenario)
+2026-04-02 16:57:55,524 | INFO | Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv     0.9999  cross-dataset (drift scenario)
+2026-04-02 16:57:55,525 | INFO | Friday-WorkingHours-Morning.pcap_ISCX.csv                   0.9898  cross-dataset (drift scenario)
+2026-04-02 16:57:55,525 | INFO | Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv        0.4449  cross-dataset (drift scenario)
+2026-04-02 16:57:55,526 | INFO | Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv            0.4328  cross-dataset (drift scenario)
+2026-04-02 16:57:55,526 | INFO | 
+Drift scores saved to artifacts/reports/drift_scores.json
+2026-04-02 16:57:55,526 | INFO | Accuracy results saved to artifacts/reports/cross_eval_accuracy.json
+2026-04-02 16:57:55,527 | INFO | === Drift Experiment Complete ===
