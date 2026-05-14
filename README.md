@@ -1,6 +1,12 @@
 # Predicting Data Drift in Production ML Models
 ## A Proactive Statistical Framework Using Distributional Divergence Metrics
 
+# Author
+
+Anwesha Singh  
+B.Tech (Computer Science Engineering)  
+Manipal University Jaipur
+
 ## What Is This Project About?
 Most machine learning projects end at test accuracy. This one begins there.
 This repository presents a complete, end-to-end pipeline addressing a critical but often ignored question:
